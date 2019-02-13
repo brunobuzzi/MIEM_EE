@@ -1,0 +1,14 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"medidaEficienciaEnergetica" ],
+	"name" : "EscenarioSinMedidas",
+	"pools" : [
+		 ],
+	"super" : "EscenarioMedidas",
+	"type" : "normal" }

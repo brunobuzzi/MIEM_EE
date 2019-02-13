@@ -1,0 +1,20 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"moneda",
+		"banco",
+		"numero",
+		"titular",
+		"tipo",
+		"empresa",
+		"sucursal" ],
+	"name" : "CuentaBancaria",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

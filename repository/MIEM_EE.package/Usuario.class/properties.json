@@ -1,0 +1,17 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rol",
+		"representante",
+		"nombre",
+		"clave" ],
+	"name" : "Usuario",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

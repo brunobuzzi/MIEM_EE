@@ -1,0 +1,14 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AgenteCertificador",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

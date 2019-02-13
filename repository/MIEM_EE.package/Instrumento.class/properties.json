@@ -1,0 +1,17 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tieneSeguimientoAnual",
+		"habilitacionInstrumento",
+		"nombre",
+		"tieneSeguimientoSemestral" ],
+	"name" : "Instrumento",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

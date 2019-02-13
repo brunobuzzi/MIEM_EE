@@ -1,0 +1,21 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"moneda",
+		"esOperativa",
+		"vidaUtil",
+		"escenarioSinMedidas",
+		"inversionTotal",
+		"escenarioConMedidas",
+		"nombreMedidaEficienciaEnergetica",
+		"postulacionInstrumento" ],
+	"name" : "MedidaEficienciaEnergetica",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

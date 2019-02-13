@@ -1,0 +1,15 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tarifaReferencia",
+		"nroCuentaUTE" ],
+	"name" : "ConsumoUTE",
+	"pools" : [
+		 ],
+	"super" : "Consumo",
+	"type" : "normal" }

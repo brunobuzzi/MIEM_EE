@@ -1,0 +1,16 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"valor",
+		"unidadEnergetica",
+		"escenarioMedidas" ],
+	"name" : "ConsumoEnergia",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

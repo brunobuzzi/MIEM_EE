@@ -1,0 +1,14 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"representante" ],
+	"name" : "Documento",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

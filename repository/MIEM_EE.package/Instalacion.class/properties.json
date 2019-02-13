@@ -1,0 +1,26 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"empresa",
+		"consumo",
+		"direccion",
+		"fax",
+		"autoconsumo",
+		"representante",
+		"localidad",
+		"departamento",
+		"ciudad",
+		"nombre",
+		"telefono",
+		"mail",
+		"postulacionInstrumento" ],
+	"name" : "Instalacion",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

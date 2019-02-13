@@ -1,0 +1,18 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"representante",
+		"habilitacionInstrumento",
+		"fechaPostulacion",
+		"instalacion",
+		"medidaEficienciaEnergetica" ],
+	"name" : "PostulacionInstrumento",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

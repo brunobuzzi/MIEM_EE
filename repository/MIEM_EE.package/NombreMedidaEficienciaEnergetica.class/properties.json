@@ -1,0 +1,15 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"usoMedida",
+		"nombre" ],
+	"name" : "NombreMedidaEficienciaEnergetica",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

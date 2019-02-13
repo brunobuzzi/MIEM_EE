@@ -1,0 +1,23 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cuentaBancaria",
+		"direccion",
+		"fax",
+		"instalacion",
+		"departamento",
+		"rut",
+		"telefono",
+		"razonSocial",
+		"ciiu",
+		"sector" ],
+	"name" : "Empresa",
+	"pools" : [
+		 ],
+	"super" : "Postulante",
+	"type" : "normal" }

@@ -1,0 +1,19 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cedula",
+		"telefono",
+		"nombre",
+		"direccion",
+		"apellido",
+		"cedular" ],
+	"name" : "Persona",
+	"pools" : [
+		 ],
+	"super" : "Postulante",
+	"type" : "normal" }

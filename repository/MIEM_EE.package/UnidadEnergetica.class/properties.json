@@ -1,0 +1,14 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"nombre" ],
+	"name" : "UnidadEnergetica",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

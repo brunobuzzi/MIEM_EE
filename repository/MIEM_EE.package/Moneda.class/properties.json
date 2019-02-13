@@ -1,0 +1,15 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tipoCambio",
+		"nombre" ],
+	"name" : "Moneda",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

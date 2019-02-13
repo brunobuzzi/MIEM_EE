@@ -1,0 +1,14 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"eSCO" ],
+	"name" : "RepresentanteESCO",
+	"pools" : [
+		 ],
+	"super" : "Representante",
+	"type" : "normal" }

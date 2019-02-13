@@ -1,0 +1,20 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ahorroEnergeticoUE",
+		"emisionesEvitadas",
+		"periodo",
+		"nombreMedida",
+		"ahorroEnergeticoPesos",
+		"herramientaOBeneficio",
+		"descripcion" ],
+	"name" : "MedidaEnergeticaGenerica",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"consumo",
+		"instalacion" ],
+	"name" : "Autoconsumo",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

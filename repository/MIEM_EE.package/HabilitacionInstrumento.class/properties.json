@@ -1,0 +1,18 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"instrumento",
+		"finPlazo",
+		"postulacionInstrumento",
+		"estaVigente",
+		"inicioPlazo" ],
+	"name" : "HabilitacionInstrumento",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

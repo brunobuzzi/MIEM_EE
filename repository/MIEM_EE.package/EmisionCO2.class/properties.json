@@ -1,0 +1,15 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"valor",
+		"escenarioMedidas" ],
+	"name" : "EmisionCO2",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

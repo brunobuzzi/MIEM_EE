@@ -1,0 +1,15 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"nombre",
+		"empresa" ],
+	"name" : "Sector",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

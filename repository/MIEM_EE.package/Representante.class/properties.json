@@ -1,0 +1,25 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"esTotal",
+		"aprobada",
+		"cargo",
+		"documento",
+		"instalacion",
+		"tipo",
+		"habilitada",
+		"usuario",
+		"nombre",
+		"telefono",
+		"mail",
+		"postulacionInstrumento" ],
+	"name" : "Representante",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
