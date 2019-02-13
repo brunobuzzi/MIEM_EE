@@ -1,0 +1,3 @@
+Accessing
+tieneSeguimientoSemestral
+	^tieneSeguimientoSemestral

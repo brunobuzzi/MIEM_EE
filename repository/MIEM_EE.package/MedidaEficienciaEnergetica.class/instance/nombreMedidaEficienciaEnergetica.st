@@ -1,0 +1,3 @@
+Accessing
+nombreMedidaEficienciaEnergetica
+	^nombreMedidaEficienciaEnergetica

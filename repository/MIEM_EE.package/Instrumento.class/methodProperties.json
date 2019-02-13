@@ -2,4 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"habilitacionInstrumento" : "brunobb 02/13/2019 09:00",
+		"habilitacionInstrumento:" : "brunobb 02/13/2019 09:00",
+		"nombre" : "brunobb 02/13/2019 09:00",
+		"nombre:" : "brunobb 02/13/2019 09:00",
+		"tieneSeguimientoAnual" : "brunobb 02/13/2019 09:00",
+		"tieneSeguimientoAnual:" : "brunobb 02/13/2019 09:00",
+		"tieneSeguimientoSemestral" : "brunobb 02/13/2019 09:00",
+		"tieneSeguimientoSemestral:" : "brunobb 02/13/2019 09:00" } }

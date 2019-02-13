@@ -2,4 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "brunobb 02/13/2019 08:32" } }
+		"apellido" : "brunobb 02/13/2019 09:00",
+		"apellido:" : "brunobb 02/13/2019 09:00",
+		"cedula" : "brunobb 02/13/2019 09:00",
+		"cedula:" : "brunobb 02/13/2019 09:00",
+		"cedular" : "brunobb 02/13/2019 09:00",
+		"cedular:" : "brunobb 02/13/2019 09:00",
+		"direccion" : "brunobb 02/13/2019 09:00",
+		"direccion:" : "brunobb 02/13/2019 09:00",
+		"initialize" : "brunobb 02/13/2019 08:32",
+		"nombre" : "brunobb 02/13/2019 09:00",
+		"nombre:" : "brunobb 02/13/2019 09:00",
+		"telefono" : "brunobb 02/13/2019 09:00",
+		"telefono:" : "brunobb 02/13/2019 09:00" } }

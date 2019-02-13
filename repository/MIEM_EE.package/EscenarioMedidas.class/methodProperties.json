@@ -2,4 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"consumoEnergia" : "brunobb 02/13/2019 08:59",
+		"consumoEnergia:" : "brunobb 02/13/2019 08:59",
+		"emisionCO2" : "brunobb 02/13/2019 08:59",
+		"emisionCO2:" : "brunobb 02/13/2019 08:59",
+		"fuenteEnergia" : "brunobb 02/13/2019 08:59",
+		"fuenteEnergia:" : "brunobb 02/13/2019 08:59",
+		"precioFuenteEnergia" : "brunobb 02/13/2019 08:59",
+		"precioFuenteEnergia:" : "brunobb 02/13/2019 08:59" } }

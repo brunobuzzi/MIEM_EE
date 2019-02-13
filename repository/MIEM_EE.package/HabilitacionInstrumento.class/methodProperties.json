@@ -2,4 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "brunobb 02/13/2019 08:43" } }
+		"estaVigente" : "brunobb 02/13/2019 08:59",
+		"estaVigente:" : "brunobb 02/13/2019 08:59",
+		"finPlazo" : "brunobb 02/13/2019 08:59",
+		"finPlazo:" : "brunobb 02/13/2019 08:59",
+		"inicioPlazo" : "brunobb 02/13/2019 08:59",
+		"inicioPlazo:" : "brunobb 02/13/2019 08:59",
+		"initialize" : "brunobb 02/13/2019 08:43",
+		"instrumento" : "brunobb 02/13/2019 08:59",
+		"instrumento:" : "brunobb 02/13/2019 08:59",
+		"postulaciones" : "brunobb 02/13/2019 08:59",
+		"postulaciones:" : "brunobb 02/13/2019 08:59" } }

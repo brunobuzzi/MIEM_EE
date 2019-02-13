@@ -2,4 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "brunobb 02/13/2019 08:49" } }
+		"initialize" : "brunobb 02/13/2019 08:49",
+		"nroCuentaUTE" : "brunobb 02/13/2019 08:59",
+		"nroCuentaUTE:" : "brunobb 02/13/2019 08:59",
+		"tarifaReferencia" : "brunobb 02/13/2019 08:59",
+		"tarifaReferencia:" : "brunobb 02/13/2019 08:59" } }

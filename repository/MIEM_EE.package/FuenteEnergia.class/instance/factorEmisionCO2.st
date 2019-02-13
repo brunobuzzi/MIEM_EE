@@ -1,0 +1,3 @@
+Accessing
+factorEmisionCO2
+	^factorEmisionCO2

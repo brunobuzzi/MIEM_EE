@@ -2,4 +2,24 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "brunobb 02/13/2019 08:31" } }
+		"ciiu" : "brunobb 02/13/2019 08:59",
+		"ciiu:" : "brunobb 02/13/2019 08:59",
+		"cuentaBancaria" : "brunobb 02/13/2019 08:59",
+		"cuentaBancaria:" : "brunobb 02/13/2019 08:59",
+		"departamento" : "brunobb 02/13/2019 08:59",
+		"departamento:" : "brunobb 02/13/2019 08:59",
+		"direccion" : "brunobb 02/13/2019 08:59",
+		"direccion:" : "brunobb 02/13/2019 08:59",
+		"fax" : "brunobb 02/13/2019 08:59",
+		"fax:" : "brunobb 02/13/2019 08:59",
+		"initialize" : "brunobb 02/13/2019 08:31",
+		"instalaciones" : "brunobb 02/13/2019 08:59",
+		"instalaciones:" : "brunobb 02/13/2019 08:59",
+		"razonSocial" : "brunobb 02/13/2019 08:59",
+		"razonSocial:" : "brunobb 02/13/2019 08:59",
+		"rut" : "brunobb 02/13/2019 08:59",
+		"rut:" : "brunobb 02/13/2019 08:59",
+		"sector" : "brunobb 02/13/2019 08:59",
+		"sector:" : "brunobb 02/13/2019 08:59",
+		"telefono" : "brunobb 02/13/2019 08:59",
+		"telefono:" : "brunobb 02/13/2019 08:59" } }

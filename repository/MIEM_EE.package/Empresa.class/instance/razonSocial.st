@@ -1,0 +1,3 @@
+Accessing
+razonSocial
+	^razonSocial

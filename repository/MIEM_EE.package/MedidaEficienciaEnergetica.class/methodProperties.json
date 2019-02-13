@@ -2,4 +2,20 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "brunobb 02/13/2019 08:47" } }
+		"esOperativa" : "brunobb 02/13/2019 09:00",
+		"esOperativa:" : "brunobb 02/13/2019 09:00",
+		"escenarioConMedidas" : "brunobb 02/13/2019 09:00",
+		"escenarioConMedidas:" : "brunobb 02/13/2019 09:00",
+		"escenarioSinMedidas" : "brunobb 02/13/2019 09:00",
+		"escenarioSinMedidas:" : "brunobb 02/13/2019 09:00",
+		"initialize" : "brunobb 02/13/2019 08:47",
+		"inversionTotal" : "brunobb 02/13/2019 09:00",
+		"inversionTotal:" : "brunobb 02/13/2019 09:00",
+		"moneda" : "brunobb 02/13/2019 09:00",
+		"moneda:" : "brunobb 02/13/2019 09:00",
+		"nombreMedidaEficienciaEnergetica" : "brunobb 02/13/2019 09:00",
+		"nombreMedidaEficienciaEnergetica:" : "brunobb 02/13/2019 09:00",
+		"postulacionInstrumento" : "brunobb 02/13/2019 09:00",
+		"postulacionInstrumento:" : "brunobb 02/13/2019 09:00",
+		"vidaUtil" : "brunobb 02/13/2019 09:00",
+		"vidaUtil:" : "brunobb 02/13/2019 09:00" } }

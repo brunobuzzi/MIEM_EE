@@ -1,0 +1,3 @@
+Accessing
+fechaPostulacion
+	^fechaPostulacion
