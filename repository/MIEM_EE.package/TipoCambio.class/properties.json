@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cambio",
-		"moneda",
+		"valor",
+		"monedaCompra",
+		"monedaVenta",
 		"fecha" ],
 	"name" : "TipoCambio",
 	"pools" : [

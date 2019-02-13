@@ -8,7 +8,7 @@
 	"instvars" : [
 		"instrumento",
 		"finPlazo",
-		"postulacionInstrumento",
+		"postulaciones",
 		"estaVigente",
 		"inicioPlazo" ],
 	"name" : "HabilitacionInstrumento",
