@@ -12,5 +12,5 @@
 	"name" : "FactorEmisionCO2",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ObjetoMIEM",
 	"type" : "normal" }

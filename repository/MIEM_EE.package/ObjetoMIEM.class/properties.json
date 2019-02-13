@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"tieneSeguimientoAnual",
-		"habilitacionInstrumento",
-		"nombre",
-		"tieneSeguimientoSemestral" ],
-	"name" : "Instrumento",
+		 ],
+	"name" : "ObjetoMIEM",
 	"pools" : [
 		 ],
-	"super" : "ObjetoMIEM",
+	"super" : "Object",
 	"type" : "normal" }

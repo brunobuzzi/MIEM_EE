@@ -12,5 +12,5 @@
 	"name" : "Sector",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ObjetoMIEM",
 	"type" : "normal" }

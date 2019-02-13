@@ -16,5 +16,5 @@
 	"name" : "MedidaEnergeticaGenerica",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ObjetoMIEM",
 	"type" : "normal" }

@@ -14,5 +14,5 @@
 	"name" : "PostulacionInstrumento",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ObjetoMIEM",
 	"type" : "normal" }

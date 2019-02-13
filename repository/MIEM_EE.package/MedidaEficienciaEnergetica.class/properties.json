@@ -17,5 +17,5 @@
 	"name" : "MedidaEficienciaEnergetica",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ObjetoMIEM",
 	"type" : "normal" }

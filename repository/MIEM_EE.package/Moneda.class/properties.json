@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Cache" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"tipoCambio",
@@ -11,5 +11,5 @@
 	"name" : "Moneda",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ObjetoMIEM",
 	"type" : "normal" }

@@ -12,5 +12,5 @@
 	"name" : "FactorConversionTEP",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ObjetoMIEM",
 	"type" : "normal" }

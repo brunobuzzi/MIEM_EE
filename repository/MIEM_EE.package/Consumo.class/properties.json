@@ -14,5 +14,5 @@
 	"name" : "Consumo",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ObjetoMIEM",
 	"type" : "normal" }

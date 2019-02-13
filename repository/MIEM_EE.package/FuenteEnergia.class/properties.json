@@ -12,5 +12,5 @@
 	"name" : "FuenteEnergia",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ObjetoMIEM",
 	"type" : "normal" }
