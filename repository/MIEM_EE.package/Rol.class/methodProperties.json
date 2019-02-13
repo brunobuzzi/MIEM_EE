@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"cache" : "brunobb 02/13/2019 09:34" },
+		"cache" : "brunobb 02/13/2019 09:34",
+		"initializeCache" : "brunobb 02/13/2019 11:17" },
 	"instance" : {
 		"initialize" : "brunobb 02/13/2019 08:23",
 		"nombre" : "brunobb 02/13/2019 09:00",

@@ -3,13 +3,11 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Cache" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"nombre",
-		"consumo",
-		"instalacion" ],
-	"name" : "Autoconsumo",
+		 ],
+	"name" : "MiemSystemInitialization",
 	"pools" : [
 		 ],
 	"super" : "ObjetoMIEM",

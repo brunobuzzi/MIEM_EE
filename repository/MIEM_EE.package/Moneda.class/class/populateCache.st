@@ -1,7 +1,7 @@
 other
-initializeMonedas
+populateCache
 
-	Cache := Set new.
+	self initializeCache.
 
 	(Moneda new nombre: 'USD') addToCache.
 	(Moneda new nombre: 'UYU') addToCache.
