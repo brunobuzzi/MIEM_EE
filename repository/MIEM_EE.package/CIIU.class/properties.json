@@ -6,10 +6,9 @@
 		"Cache" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"usuarios",
-		"tipo",
-		"nombre" ],
-	"name" : "Rol",
+		"nombre",
+		"numero" ],
+	"name" : "CIIU",
 	"pools" : [
 		 ],
 	"super" : "ObjetoMIEM",

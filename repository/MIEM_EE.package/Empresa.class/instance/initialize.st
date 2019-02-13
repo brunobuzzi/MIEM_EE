@@ -11,3 +11,5 @@ initialize
 	fax := ''.
 	instalaciones := Set new.
 	departamento := ''.
+	clasificacion := 'Micro'. "Micro - Pequeña - Mediana - Grande"
+	certificadoPyme := false.

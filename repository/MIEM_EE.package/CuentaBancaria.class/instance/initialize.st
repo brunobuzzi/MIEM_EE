@@ -4,7 +4,7 @@ initialize
 	super initialize.
 
 	banco := ''.
+	sucursal := ''.
 	numero := ''.
 	titular := ''.
-	tipo := ''.
-	sucursal := ''.
+	tipo := 'CC'. "CC - CA"

@@ -15,7 +15,9 @@
 		"telefono",
 		"razonSocial",
 		"ciiu",
-		"sector" ],
+		"sector",
+		"clasificacion",
+		"certificadoPyme" ],
 	"name" : "Empresa",
 	"pools" : [
 		 ],

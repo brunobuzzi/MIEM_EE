@@ -3,11 +3,11 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Cache" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"tieneSeguimientoAnual",
-		"habilitacionInstrumento",
+		"habilitaciones",
 		"nombre",
 		"tieneSeguimientoSemestral" ],
 	"name" : "Instrumento",
