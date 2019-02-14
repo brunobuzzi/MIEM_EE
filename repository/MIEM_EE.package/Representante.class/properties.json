@@ -1,7 +1,7 @@
 {
 	"category" : "MIEM_EE",
 	"classinstvars" : [
-		 ],
+		"cache" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
