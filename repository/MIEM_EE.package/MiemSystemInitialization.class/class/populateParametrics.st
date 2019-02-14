@@ -7,3 +7,4 @@ populateParametrics
 	Moneda initializeCache.
 	Sector populateCache.
 	TarifaReferencia populateCache.
+	Rol populateCache.
