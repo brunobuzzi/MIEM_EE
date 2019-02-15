@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"applicationIcon" : "brunobb 02/15/2019 09:20",
+		"applicationName" : "brunobb 02/15/2019 09:21",
+		"initialize" : "brunobb 02/15/2019 08:58",
+		"initializeNavigation" : "brunobb 02/15/2019 09:03",
+		"initializeNavigationForUsuarioExterno" : "brunobb 02/15/2019 09:04",
+		"initializeNavigationForUsuarioInterno" : "brunobb 02/15/2019 09:10",
+		"logout" : "brunobb 02/15/2019 09:25",
+		"renderSwitchPortalIconsOn:" : "brunobb 02/15/2019 09:23",
+		"updateRoot:" : "brunobb 02/15/2019 09:30",
+		"versionName" : "brunobb 02/15/2019 09:38" } }

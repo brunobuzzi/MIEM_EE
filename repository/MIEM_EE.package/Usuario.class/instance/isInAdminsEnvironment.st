@@ -1,5 +1,5 @@
 bpm interaction
-getBpmEnvironments
+isInAdminsEnvironment
 	"Answer the available <BpmEnvironment>s to the receiver"
 
-	^self asBpmUser getBpmEnvironments
+	^self asBpmUser isInAdminsEnvironment

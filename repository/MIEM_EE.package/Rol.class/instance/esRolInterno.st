@@ -1,0 +1,4 @@
+other
+esRolInterno
+
+	^tipo = 'Interno'

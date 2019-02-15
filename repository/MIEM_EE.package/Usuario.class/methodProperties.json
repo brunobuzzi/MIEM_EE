@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"cache" : "brunobb 02/15/2019 06:47",
+		"getExistingOrNewUserNamed:" : "brunobb 02/15/2019 09:15",
 		"getExistingOrNewUserNamed:password:forEnvironment:" : "brunobb 02/15/2019 07:44",
 		"getUserNamed:" : "brunobb 02/15/2019 05:13",
 		"getUserNamed:ifAbsent:" : "brunobb 02/15/2019 05:13",
@@ -11,8 +12,11 @@
 		"asBpmUser" : "brunobb 02/15/2019 06:48",
 		"basicAddRol:" : "brunobb 02/15/2019 07:38",
 		"basicRemoveRol:" : "brunobb 02/15/2019 07:38",
-		"getBpmEnvironments" : "brunobb 02/15/2019 06:47",
+		"esUsuarioInterno" : "brunobb 02/15/2019 09:02",
+		"getBpmEnvironments" : "brunobb 02/15/2019 09:17",
 		"initialize" : "brunobb 02/15/2019 06:48",
+		"isInAdminsEnvironment" : "brunobb 02/15/2019 09:18",
+		"languageName" : "brunobb 02/15/2019 09:22",
 		"nombre" : "brunobb 02/15/2019 06:48",
 		"nombre:" : "brunobb 02/15/2019 06:48",
 		"representantes" : "brunobb 02/15/2019 06:47",

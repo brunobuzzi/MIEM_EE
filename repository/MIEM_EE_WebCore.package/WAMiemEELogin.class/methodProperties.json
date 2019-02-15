@@ -1,6 +1,9 @@
 {
 	"class" : {
-		 },
+		"register" : "brunobb 02/15/2019 09:13",
+		"unregister" : "brunobb 02/15/2019 09:13" },
 	"instance" : {
 		"checkAccessToApplicationFor:" : "brunobb 02/15/2019 04:56",
-		"defaultUserClass" : "brunobb 02/15/2019 04:54" } }
+		"defaultUserClass" : "brunobb 02/15/2019 04:54",
+		"showPortalFor:" : "brunobb 02/15/2019 09:00",
+		"tryLogin" : "brunobb 02/15/2019 09:37" } }
