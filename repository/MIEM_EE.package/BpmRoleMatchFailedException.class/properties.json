@@ -3,14 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Cache" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"roles",
-		"representantes",
-		"nombre" ],
-	"name" : "Usuario",
+		 ],
+	"name" : "BpmRoleMatchFailedException",
 	"pools" : [
 		 ],
-	"super" : "ObjetoMIEM",
+	"super" : "MIEMException",
 	"type" : "normal" }

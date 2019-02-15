@@ -8,3 +8,6 @@ populateParametrics
 	Sector populateCache.
 	TarifaReferencia populateCache.
 	Rol populateCache.
+	Usuario populateCache.
+
+	self setUpDefaultEnvironment.

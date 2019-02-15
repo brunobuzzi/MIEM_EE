@@ -8,7 +8,8 @@
 	"instvars" : [
 		"usuarios",
 		"tipo",
-		"nombre" ],
+		"nombre",
+		"bpmApplication" ],
 	"name" : "Rol",
 	"pools" : [
 		 ],

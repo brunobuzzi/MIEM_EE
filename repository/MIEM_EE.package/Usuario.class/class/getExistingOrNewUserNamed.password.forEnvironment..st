@@ -1,5 +1,5 @@
 other
-newUsername: username password: password forEnvironment: aBpmEnvironment
+getExistingOrNewUserNamed: username password: password forEnvironment: aBpmEnvironment
 	"The receiver create a new <BpmUser> named <username> with password <username> for environment <aBpmEnvironment>"
 	| bpmUser newUser |
 
@@ -8,6 +8,6 @@ newUsername: username password: password forEnvironment: aBpmEnvironment
 	bpmUser := self defaultBpmUserClass getExistingOrNewUserNamed: username password: password forEnvironment: aBpmEnvironment.
 	newUser := self new initialize.
 	newUser nombre: username;
-				clave: password.
+		addToCache.
 
 	^newUser

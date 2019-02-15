@@ -1,4 +1,4 @@
-other
+bpm interaction
 asBpmUser
 	"Answer <aBpmUser> corresponding to the receiver. If not found answer <anException>.
 	It is mandatory to all users of this system to have a match with <aBpmUser>"

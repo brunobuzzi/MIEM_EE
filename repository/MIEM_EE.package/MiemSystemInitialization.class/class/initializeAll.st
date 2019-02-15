@@ -11,9 +11,10 @@ initializeAll
 	Rol initializeCache.
 	Sector initializeCache.
 	TarifaReferencia initializeCache.
-	Usuario initializeCache.
 	Representante initializeCache.
 	RepresentanteESCO initializeCache.
 	Empresa initializeCache.
 	Persona initializeCache.
 	ESCO initializeCache.
+
+	self removeDefaultEnvironment.
