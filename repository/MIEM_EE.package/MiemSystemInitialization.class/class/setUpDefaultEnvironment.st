@@ -1,12 +1,13 @@
 other
 setUpDefaultEnvironment
-	| defaultEnvironment application adminUser |
+	| defaultEnvironment adminUser |
 
 	defaultEnvironment := BpmEnvironment newNamed: 'MIEM'.
-	application := OrbeonApplication getExistingApplicationOrCreateNewNamed: 'dne'.
 
 	adminUser := Usuario getUserNamed: 'admin'.
 	defaultEnvironment registerUser: adminUser asBpmUser ifPresent: [].
 	defaultEnvironment addToCache.
 
-	defaultEnvironment registerApplication: application.
+	defaultEnvironment registerApplication: self defaultBpmApplication.
+
+	(Rol getExistingOrNewRolerNamed: 'Administrador' withType: 'Interno' in: self defaultBpmApplication) grantUsuario: adminUser.

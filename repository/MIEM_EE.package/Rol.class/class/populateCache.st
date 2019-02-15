@@ -1,18 +1,12 @@
 other
 populateCache
-	| administrador internoOperador internoLector externoEmpresa externoPersonaFisica |
 
-	administrador := self new nombre: 'Administrador'; tipo: 'Interno'; yourself.
-	administrador addToCache.
+	self getExistingOrNewRolerNamed: 'Administrador' withType: 'Interno' in: self defaultBpmApplication.
 
-	internoOperador := self new nombre: 'Operador'; tipo: 'Interno'; yourself.
-	internoOperador addToCache.
+	self getExistingOrNewRolerNamed: 'Operador' withType: 'Interno' in: self defaultBpmApplication.
 
-	internoLector := self new nombre: 'Lector'; tipo: 'Interno'; yourself.
-	internoLector addToCache.
+	self getExistingOrNewRolerNamed: 'Lector' withType: 'Interno' in: self defaultBpmApplication.
 
-	externoEmpresa := self new nombre: 'Empresa'; tipo: 'Externo'; yourself.
-	externoEmpresa addToCache.
+	self getExistingOrNewRolerNamed: 'Empresa' withType: 'Externo' in: self defaultBpmApplication.
 
-	externoPersonaFisica := self new nombre: 'Persona Física'; tipo: 'Externo'; yourself.
-	externoPersonaFisica addToCache.
+	self getExistingOrNewRolerNamed: 'Persona Física' withType: 'Externo' in: self defaultBpmApplication.
