@@ -1,0 +1,4 @@
+other
+checkAccessToApplicationFor: aBpmUser
+
+	^true

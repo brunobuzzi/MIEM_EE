@@ -1,4 +1,4 @@
 other
 initializeCache
 
-	Cache := Set new
+	Cache := RcKeyValueDictionary new

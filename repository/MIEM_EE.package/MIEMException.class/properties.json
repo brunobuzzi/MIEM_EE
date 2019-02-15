@@ -1,0 +1,14 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MIEMException",
+	"pools" : [
+		 ],
+	"super" : "Exception",
+	"type" : "normal" }

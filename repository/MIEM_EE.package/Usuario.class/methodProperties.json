@@ -1,10 +1,15 @@
 {
 	"class" : {
 		"cache" : "brunobb 02/13/2019 09:33",
-		"initializeCache" : "brunobb 02/13/2019 11:16" },
+		"getUserNamed:" : "brunobb 02/15/2019 05:13",
+		"getUserNamed:ifAbsent:" : "brunobb 02/15/2019 05:13",
+		"initializeCache" : "brunobb 02/15/2019 05:10",
+		"newUsername:password:forEnvironment:" : "brunobb 02/15/2019 05:13" },
 	"instance" : {
+		"asBpmUser" : "brunobb 02/15/2019 05:05",
 		"clave" : "brunobb 02/13/2019 09:00",
 		"clave:" : "brunobb 02/13/2019 09:00",
+		"getBpmEnvironments" : "brunobb 02/15/2019 05:04",
 		"initialize" : "brunobb 02/13/2019 08:21",
 		"nombre" : "brunobb 02/13/2019 09:00",
 		"nombre:" : "brunobb 02/13/2019 09:00",
