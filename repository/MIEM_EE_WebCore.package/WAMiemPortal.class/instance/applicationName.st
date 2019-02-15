@@ -1,4 +1,4 @@
 other
 applicationName
 
-	^'MIEM Eficiencia Energética'
+	^'Eficiencia Energética'

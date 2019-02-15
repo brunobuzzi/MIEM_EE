@@ -1,0 +1,4 @@
+other
+columnsForItems
+
+	self subclassResponsibility

@@ -5,10 +5,11 @@
 		"populateCache" : "brunobb 02/13/2019 11:01",
 		"validNames" : "brunobb 02/13/2019 11:00" },
 	"instance" : {
-		"factorConversionTEP" : "brunobb 02/13/2019 08:59",
-		"factorConversionTEP:" : "brunobb 02/13/2019 08:59",
-		"factorEmisionCO2" : "brunobb 02/13/2019 08:59",
-		"factorEmisionCO2:" : "brunobb 02/13/2019 08:59",
-		"nombre" : "brunobb 02/13/2019 08:59",
-		"nombre:" : "brunobb 02/13/2019 08:59",
+		"canDelete" : "brunobb 02/15/2019 11:00",
+		"factorConversionTEP" : "brunobb 02/13/2019 09:30",
+		"factorConversionTEP:" : "brunobb 02/13/2019 09:30",
+		"factorEmisionCO2" : "brunobb 02/13/2019 09:30",
+		"factorEmisionCO2:" : "brunobb 02/13/2019 09:30",
+		"nombre" : "brunobb 02/13/2019 09:30",
+		"nombre:" : "brunobb 02/13/2019 09:30",
 		"printOn:" : "brunobb 02/13/2019 10:48" } }

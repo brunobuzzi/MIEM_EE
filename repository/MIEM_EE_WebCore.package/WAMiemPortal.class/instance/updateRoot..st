@@ -5,4 +5,4 @@ updateRoot: anHtmlRoot
 
     SEWAFCssLibrary default updateRoot: anHtmlRoot.
 
-	anHtmlRoot stylesheet url: (SEWAFCssLibrary / #topMenuLayoutCss).
+	anHtmlRoot stylesheet url: (SEWAFCssLibrary / layout cssFileName).

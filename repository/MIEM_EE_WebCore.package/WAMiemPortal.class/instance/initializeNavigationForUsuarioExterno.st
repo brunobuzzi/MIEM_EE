@@ -2,7 +2,7 @@ other
 initializeNavigationForUsuarioExterno
 	| subMenu1 subMenu2 subMenu3 subMenu5 subMenu6 |
 
-	navigation := SewafPortalMenu new iconLibrary: SEWAFIconLibrary.
+	navigation := SewafPortalMenu new iconLibrary: MIEMIconLibrary.
 
 	subMenu1 := (SewafSubMenuItem label: 'My Tasks' icon: #worksinprogress32Png)
 		set24Icon: #worksinprogress24Png;

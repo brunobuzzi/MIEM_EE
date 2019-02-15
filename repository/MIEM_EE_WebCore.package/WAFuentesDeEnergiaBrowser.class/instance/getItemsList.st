@@ -1,0 +1,4 @@
+other
+getItemsList
+
+	^FuenteEnergia cache

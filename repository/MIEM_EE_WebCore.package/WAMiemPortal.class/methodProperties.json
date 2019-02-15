@@ -2,13 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
-		"applicationIcon" : "brunobb 02/15/2019 09:20",
-		"applicationName" : "brunobb 02/15/2019 09:21",
+		"applicationIcon" : "brunobb 02/15/2019 09:54",
+		"applicationName" : "brunobb 02/15/2019 09:54",
 		"initialize" : "brunobb 02/15/2019 08:58",
 		"initializeNavigation" : "brunobb 02/15/2019 09:03",
-		"initializeNavigationForUsuarioExterno" : "brunobb 02/15/2019 09:04",
-		"initializeNavigationForUsuarioInterno" : "brunobb 02/15/2019 09:10",
+		"initializeNavigationForUsuarioExterno" : "brunobb 02/15/2019 09:45",
+		"initializeNavigationForUsuarioInterno" : "brunobb 02/15/2019 10:11",
 		"logout" : "brunobb 02/15/2019 09:25",
 		"renderSwitchPortalIconsOn:" : "brunobb 02/15/2019 09:23",
-		"updateRoot:" : "brunobb 02/15/2019 09:30",
+		"showAutoconsumo" : "brunobb 02/15/2019 10:35",
+		"showCIIU" : "brunobb 02/15/2019 10:49",
+		"showFuentesDeEnergia" : "brunobb 02/15/2019 10:59",
+		"showMonedas" : "brunobb 02/15/2019 11:04",
+		"showTarifasDeReferencia" : "brunobb 02/15/2019 11:07",
+		"updateRoot:" : "brunobb 02/15/2019 09:47",
 		"versionName" : "brunobb 02/15/2019 09:38" } }

@@ -1,4 +1,4 @@
 other
 applicationIcon
 
-	^SEWAFIconLibrary / #piechart32Png
+	^MIEMIconLibrary / #preferencessystempower32Png

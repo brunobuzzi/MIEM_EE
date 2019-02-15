@@ -1,0 +1,4 @@
+other
+tableName
+
+	self subclassResponsibility

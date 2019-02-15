@@ -1,12 +1,15 @@
 {
 	"class" : {
-		"cache" : "brunobb 02/13/2019 09:27",
-		"initializeCache" : "brunobb 02/13/2019 11:19",
-		"populateCache" : "brunobb 02/13/2019 11:23" },
+		"cache" : "brunobb 02/15/2019 11:02",
+		"initializeCache" : "brunobb 02/15/2019 11:02",
+		"populateCache" : "brunobb 02/15/2019 11:03" },
 	"instance" : {
-		"initialize" : "brunobb 02/13/2019 08:42",
-		"nombre" : "brunobb 02/13/2019 09:00",
-		"nombre:" : "brunobb 02/13/2019 09:00",
-		"printOn:" : "brunobb 02/13/2019 09:27",
-		"tipoCambio" : "brunobb 02/13/2019 09:00",
-		"tipoCambio:" : "brunobb 02/13/2019 09:00" } }
+		"canDelete" : "brunobb 02/15/2019 11:02",
+		"initialize" : "brunobb 02/15/2019 11:02",
+		"nombre" : "brunobb 02/15/2019 11:02",
+		"nombre:" : "brunobb 02/15/2019 11:02",
+		"pais" : "brunobb 02/15/2019 11:03",
+		"pais:" : "brunobb 02/15/2019 11:03",
+		"printOn:" : "brunobb 02/15/2019 11:02",
+		"tipoCambio" : "brunobb 02/15/2019 11:02",
+		"tipoCambio:" : "brunobb 02/15/2019 11:02" } }

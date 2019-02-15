@@ -1,0 +1,15 @@
+{
+	"category" : "MIEM_EE_WebCore",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"batchList",
+		"currentItems" ],
+	"name" : "WAParametricaBrowser",
+	"pools" : [
+		 ],
+	"super" : "SEWAFWebObjectComposite",
+	"type" : "normal" }

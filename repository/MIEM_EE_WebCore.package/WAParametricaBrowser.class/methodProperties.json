@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"columnsForItems" : "brunobb 02/15/2019 10:34",
+		"getItemsList" : "brunobb 02/15/2019 10:28",
+		"initialize" : "brunobb 02/15/2019 10:26",
+		"initializeSewafTableForItems" : "brunobb 02/15/2019 10:33",
+		"removeItem:" : "brunobb 02/15/2019 10:57",
+		"removeItemButton" : "brunobb 02/15/2019 10:56",
+		"renderContentOn:" : "brunobb 02/15/2019 11:14",
+		"searchBy:" : "brunobb 02/15/2019 11:13",
+		"sewafTableFoItems" : "brunobb 02/15/2019 10:29",
+		"tableName" : "brunobb 02/15/2019 10:28" } }

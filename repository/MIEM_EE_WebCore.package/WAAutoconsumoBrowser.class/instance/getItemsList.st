@@ -1,0 +1,4 @@
+other
+getItemsList
+
+	^Autoconsumo cache
