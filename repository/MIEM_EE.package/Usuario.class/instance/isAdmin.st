@@ -1,0 +1,4 @@
+bpm interaction
+isAdmin
+
+	^true

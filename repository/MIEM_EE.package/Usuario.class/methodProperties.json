@@ -12,9 +12,12 @@
 		"asBpmUser" : "brunobb 02/15/2019 06:48",
 		"basicAddRol:" : "brunobb 02/15/2019 07:38",
 		"basicRemoveRol:" : "brunobb 02/15/2019 07:38",
+		"canDelete" : "brunobb 02/15/2019 11:35",
 		"esUsuarioInterno" : "brunobb 02/15/2019 09:02",
 		"getBpmEnvironments" : "brunobb 02/15/2019 09:17",
+		"getVisibleUsersIn:" : "brunobb 02/15/2019 11:33",
 		"initialize" : "brunobb 02/15/2019 06:48",
+		"isAdmin" : "brunobb 02/15/2019 11:35",
 		"isInAdminsEnvironment" : "brunobb 02/15/2019 09:18",
 		"languageName" : "brunobb 02/15/2019 09:22",
 		"nombre" : "brunobb 02/15/2019 06:48",
@@ -24,4 +27,5 @@
 		"representantes:" : "brunobb 02/15/2019 06:47",
 		"roles" : "brunobb 02/15/2019 06:47",
 		"roles:" : "brunobb 02/15/2019 06:47",
-		"userOptions" : "brunobb 02/15/2019 10:24" } }
+		"userOptions" : "brunobb 02/15/2019 10:24",
+		"username" : "brunobb 02/15/2019 11:34" } }

@@ -6,8 +6,8 @@ initializeNavigationForUsuarioInterno
 
 	subMenu1 := (SewafSubMenuItem label: 'Usuarios y Roles' icon: #usersettings32Png)
 		set24Icon: #worksinprogress24Png;
-		addItem: (SewafCommandItem label: 'Administrar Usuarios' command: #showCurrentProcess);
-		addItem: (SewafCommandItem label: 'Administrar Roles' command: #showFinishedProcess);
+		addItem: (SewafCommandItem label: 'Administrar Usuarios' command: #showUsuarios);
+		addItem: (SewafCommandItem label: 'Administrar Roles' command: #showRoles);
 		yourself.
 	subMenu2 := (SewafSubMenuItem label: 'Instrumentos' icon: #foldermydocuments32Png)
 		set24Icon: #folderscheduledtasks24Png;
