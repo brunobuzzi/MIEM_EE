@@ -1,0 +1,4 @@
+other
+defaultUserClass
+
+	^Usuario
