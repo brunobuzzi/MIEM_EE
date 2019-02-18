@@ -1,4 +1,4 @@
-bpm interaction
+roles
 isAdmin
 
-	^true
+	^roles anySatisfy: [:each | each isAdmin]

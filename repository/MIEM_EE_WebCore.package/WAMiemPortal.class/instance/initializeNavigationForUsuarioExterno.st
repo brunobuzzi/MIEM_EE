@@ -1,6 +1,6 @@
 other
 initializeNavigationForUsuarioExterno
-	| subMenu2 subMenu3 |
+	| subMenu2 |
 
 	navigation := SewafPortalMenu new iconLibrary: MIEMIconLibrary.
 
@@ -9,14 +9,5 @@ initializeNavigationForUsuarioExterno
 		addItem: (SewafCommandItem label: 'Habilitaciones' command: #showUnassignedTasks);
 		addItem: (SewafCommandItem label: 'Postulaciones' command: #showUnassignedTasks);
 		yourself.
-	subMenu3 := (SewafSubMenuItem label: 'Paramétricas' icon: #setting32Png)
-		set24Icon: #processadd24Png;
-		addItem: (SewafCommandItem label: 'Autoconsumo' command: #showAutoconsumo);
-		addItem: (SewafCommandItem label: 'CIIU' command: #showCIIU);
-		addItem: (SewafCommandItem label: 'Fuentes de Energía' command: #showFuentesDeEnergia);
-		addItem: (SewafCommandItem label: 'Monedas' command: #showMonedas);
-		addItem: (SewafCommandItem label: 'Tarifa de Referencia' command: #showTarifasDeReferencia);
-		yourself.
 	navigation
-		addItem: subMenu2;
-		addItem: subMenu3.
+		addItem: subMenu2

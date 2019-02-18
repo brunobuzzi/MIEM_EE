@@ -4,8 +4,8 @@
 	"instance" : {
 		"defaultNewUserPopupComponent" : "brunobb 02/18/2019 06:52",
 		"initializeSewafTableRolsOfUser" : "brunobb 02/18/2019 05:00",
-		"modifyRole:value:" : "brunobb 02/18/2019 05:08",
+		"modifyRole:value:" : "brunobb 02/18/2019 10:36",
 		"newRemoveRolFromUserButton" : "brunobb 02/18/2019 05:12",
-		"removeRolFromUser:" : "brunobb 02/18/2019 05:12",
+		"removeRolFromUser:" : "brunobb 02/18/2019 10:37",
 		"removeUserButton" : "brunobb 02/18/2019 05:10",
 		"sewafTableForRols" : "brunobb 02/18/2019 05:06" } }
