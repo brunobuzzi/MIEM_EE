@@ -1,41 +1,22 @@
 other
 initializeNavigationForUsuarioExterno
-	| subMenu1 subMenu2 subMenu3 subMenu5 subMenu6 |
+	| subMenu2 subMenu3 |
 
 	navigation := SewafPortalMenu new iconLibrary: MIEMIconLibrary.
 
-	subMenu1 := (SewafSubMenuItem label: 'My Tasks' icon: #worksinprogress32Png)
-		set24Icon: #worksinprogress24Png;
-		addItem: (SewafCommandItem label: 'Current Tasks' command: #showCurrentProcess);
-		addItem: (SewafCommandItem label: 'Finished Tasks' command: #showFinishedProcess);
-		addItem: (SewafCommandItem label: 'Process Categories' command: #showProcessCategories);
-		addItem: (SewafCommandItem label: 'Browse Timers' command: #openTimerEventBrowser);
-		yourself.
-	subMenu2 := (SewafSubMenuItem label: 'Unassigned Tasks' icon: #folderscheduledtasks32Png)
+	subMenu2 := (SewafSubMenuItem label: 'Instrumentos' icon: #foldermydocuments32Png)
 		set24Icon: #folderscheduledtasks24Png;
-		addItem: (SewafCommandItem label: 'View Unassigned Tasks' command: #showUnassignedTasks);
+		addItem: (SewafCommandItem label: 'Habilitaciones' command: #showUnassignedTasks);
+		addItem: (SewafCommandItem label: 'Postulaciones' command: #showUnassignedTasks);
 		yourself.
-	subMenu3 := (SewafSubMenuItem label: 'New Process' icon: #processadd32Png)
+	subMenu3 := (SewafSubMenuItem label: 'Paramétricas' icon: #setting32Png)
 		set24Icon: #processadd24Png;
-		addItem: (SewafCommandItem label: 'Pinned Processes' command: #showPinnedProcesses);
-		addItem: (SewafCommandItem label: 'Available Processes' command: #showAvailableProcesses);
-		addItem: (SewafCommandItem label: 'Granted Tasks' command: #showGrantedTasks);
+		addItem: (SewafCommandItem label: 'Autoconsumo' command: #showAutoconsumo);
+		addItem: (SewafCommandItem label: 'CIIU' command: #showCIIU);
+		addItem: (SewafCommandItem label: 'Fuentes de Energía' command: #showFuentesDeEnergia);
+		addItem: (SewafCommandItem label: 'Monedas' command: #showMonedas);
+		addItem: (SewafCommandItem label: 'Tarifa de Referencia' command: #showTarifasDeReferencia);
 		yourself.
-	subMenu5 := (SewafSubMenuItem label: 'Configuration' icon: #applicationsettings32Png)
-		set24Icon: #applicationsettings24Png;
-		addItem: (SewafCommandItem label: 'Change Password' command: #showChangePassword);
-		addItem: (SewafCommandItem label: 'Display Preferences' command: #showDisplayPreferences);
-		addItem: (SewafCommandItem label: 'Set Language' command: #showLanguageConfiguration);
-		yourself.
-
-	subMenu6 := (SewafSubMenuItem label: 'Messages' icon: #emailinbox32Png)
-		set24Icon: #emailinbox24Png;
-		addItem: (SewafCommandItem label: 'Inbox' command: #showInternalInbox);
-		addItem: (SewafCommandItem label: 'Outbox' command: #showInternalOutbox);
-		yourself.
-
-	navigation addItem: subMenu1;
+	navigation
 		addItem: subMenu2;
-		addItem: subMenu3;
-		addItem: subMenu6;
-		addItem: subMenu5.
+		addItem: subMenu3.

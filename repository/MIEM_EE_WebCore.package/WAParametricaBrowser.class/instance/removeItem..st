@@ -13,4 +13,9 @@ removeItem: unItem
 
 	batchList remove: unItem.
 	
-	^unItem removeFromCache
+	unItem removeFromCache.
+
+	self closeAllInformationComponents.
+	(self getTableNamed: self tableName ifAbsent: [^self]) 
+				information: ('Item Removed' translateIn: self session)
+				color: 'green'

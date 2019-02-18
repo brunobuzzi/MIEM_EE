@@ -1,10 +1,12 @@
 {
 	"class" : {
 		"cache" : "brunobb 02/15/2019 11:02",
+		"includesMonedaNamed:" : "brunobb 02/18/2019 10:14",
 		"initializeCache" : "brunobb 02/15/2019 11:02",
-		"populateCache" : "brunobb 02/15/2019 11:03" },
+		"populateCache" : "brunobb 02/15/2019 11:03",
+		"validNames" : "brunobb 02/18/2019 09:38" },
 	"instance" : {
-		"canDelete" : "brunobb 02/15/2019 11:02",
+		"canDelete" : "brunobb 02/18/2019 09:37",
 		"initialize" : "brunobb 02/15/2019 11:02",
 		"nombre" : "brunobb 02/15/2019 11:02",
 		"nombre:" : "brunobb 02/15/2019 11:02",

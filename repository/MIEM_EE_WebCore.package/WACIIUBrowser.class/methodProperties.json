@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"canAddParametrics" : "brunobb 02/18/2019 09:42",
 		"columnsForItems" : "brunobb 02/15/2019 11:08",
 		"getItemsList" : "brunobb 02/15/2019 10:49",
 		"tableName" : "brunobb 02/15/2019 10:36" } }

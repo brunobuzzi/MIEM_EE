@@ -1,11 +1,12 @@
 {
 	"class" : {
 		"cache" : "brunobb 02/13/2019 10:43",
+		"includesTarifaNamed:" : "brunobb 02/18/2019 09:58",
 		"initializeCache" : "brunobb 02/13/2019 10:42",
 		"populateCache" : "brunobb 02/13/2019 11:01",
 		"validNames" : "brunobb 02/13/2019 11:00" },
 	"instance" : {
-		"canDelete" : "brunobb 02/15/2019 11:06",
+		"canDelete" : "brunobb 02/18/2019 09:38",
 		"initialize" : "brunobb 02/13/2019 09:28",
 		"nombre" : "brunobb 02/13/2019 09:28",
 		"nombre:" : "brunobb 02/13/2019 09:28",

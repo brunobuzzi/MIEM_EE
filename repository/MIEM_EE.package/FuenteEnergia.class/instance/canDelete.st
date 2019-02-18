@@ -1,4 +1,4 @@
 other
 canDelete
 
-	^true
+	^(self class validNames includes: nombre) not

@@ -1,3 +1,4 @@
 other
 canDelete
-	^true
+
+	^false
