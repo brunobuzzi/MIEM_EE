@@ -3,14 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Cache" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"nombre",
-		"path",
-		"representante" ],
-	"name" : "Documento",
+		 ],
+	"name" : "MiemAltaRepresentacionMapper",
 	"pools" : [
 		 ],
-	"super" : "ObjetoMIEM",
+	"super" : "AppProcessDomainObjectMapper",
 	"type" : "normal" }

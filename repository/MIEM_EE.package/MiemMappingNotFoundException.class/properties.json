@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"nombre",
-		"path",
-		"representante" ],
-	"name" : "Documento",
+		 ],
+	"name" : "MiemMappingNotFoundException",
 	"pools" : [
 		 ],
-	"super" : "ObjetoMIEM",
+	"super" : "MIEMException",
 	"type" : "normal" }

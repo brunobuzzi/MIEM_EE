@@ -1,5 +1,5 @@
 *MIEM_EE
-asInstalaciones
+asNewInstalaciones
 	| instalaciones |
 
 	instalaciones := OrderedCollection new.
