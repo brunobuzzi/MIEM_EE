@@ -1,7 +1,7 @@
 *MIEM_EE
-asNewCuentaBancaria
+asNewCuentaBancariaOn: unaEmpresa
 
-	^CuentaBancaria new initialize
+	^(CuentaBancaria newOn: unaEmpresa)
 			banco: self empCuentaBanco;
 			sucursal: self empCuentaSucursal;
 			titular: self empCuentaTitular;

@@ -1,7 +1,8 @@
 *MIEM_EE
 asNewEmpresa
+	| empresa |
 
-	^Empresa new initialize
+	empresa := Empresa new initialize
 			razonSocial: self empRazonSocial;
 			rut: self empRut;
 			ciiu: self empRut;
@@ -12,5 +13,8 @@ asNewEmpresa
 			departamento: self empDepartamento;
 			clasificacion: self empClasificacion;
 			certificadoPyme: self empCertificadoPyme;
-			cuentaBancaria: self asNewCuentaBancaria;
-			yourself
+			yourself.
+
+	empresa cuentaBancaria: (self asNewCuentaBancariaOn: empresa).
+
+	^empresa
