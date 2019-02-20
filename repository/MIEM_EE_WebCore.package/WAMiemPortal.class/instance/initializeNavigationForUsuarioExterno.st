@@ -1,13 +1,22 @@
 other
 initializeNavigationForUsuarioExterno
-	| subMenu2 |
+	| subMenu1 subMenu2 |
 
 	navigation := SewafPortalMenu new iconLibrary: MIEMIconLibrary.
 
+	subMenu1 := (SewafSubMenuItem label: 'Representaciones' icon: #bluebox32Png)
+		set24Icon: #folderscheduledtasks24Png;
+		addItem: (SewafCommandItem label: 'Datos Representante' command: #showUnassignedTasks);
+		addItem: (SewafCommandItem label: 'Crear Representacion' command: #showUnassignedTasks);
+		addItem: (SewafCommandItem label: 'Ver Representaciones' command: #showUnassignedTasks);
+		yourself.
+
 	subMenu2 := (SewafSubMenuItem label: 'Instrumentos' icon: #foldermydocuments32Png)
 		set24Icon: #folderscheduledtasks24Png;
-		addItem: (SewafCommandItem label: 'Habilitaciones' command: #showUnassignedTasks);
-		addItem: (SewafCommandItem label: 'Postulaciones' command: #showUnassignedTasks);
+		addItem: (SewafCommandItem label: 'Postular' command: #showUnassignedTasks);
+		addItem: (SewafCommandItem label: 'Postulaciones Actules' command: #showUnassignedTasks);
+		addItem: (SewafCommandItem label: 'Postulaciones Cerradas' command: #showUnassignedTasks);
 		yourself.
 	navigation
-		addItem: subMenu2
+		addItem: subMenu1;
+		addItem: subMenu2.
