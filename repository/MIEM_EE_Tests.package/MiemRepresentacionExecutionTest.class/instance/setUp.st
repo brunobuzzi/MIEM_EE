@@ -18,6 +18,9 @@ setUp
 	environment := procDefinition bpmEnvironment.
 
 	self processExecutionSimulator registerUser: (self defaultBpmUserClass getExistingOrNewUserNamed: 'juan@MIEM').
+	self processExecutionSimulator registerUser: (self defaultBpmUserClass getExistingOrNewUserNamed: 'pedro@MIEM').
 	environment registerUser: (self getUserNamed: 'juan@MIEM').
+	environment registerUser: (self getUserNamed: 'pedro@MIEM').
 
 	(BpmFrontOfficeRole getRoleNamed: 'Empresa' in: 'dne') grantUser: (self getUserNamed: 'juan@MIEM') ifPresent: [].
+	(BpmFrontOfficeRole getRoleNamed: 'Operador' in: 'dne') grantUser: (self getUserNamed: 'pedro@MIEM') ifPresent: [].
