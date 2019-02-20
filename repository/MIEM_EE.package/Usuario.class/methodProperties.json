@@ -3,9 +3,9 @@
 		"cache" : "brunobb 02/15/2019 06:47",
 		"getExistingOrNewUserNamed:" : "brunobb 02/18/2019 10:41",
 		"getExistingOrNewUserNamed:password:forEnvironment:" : "brunobb 02/15/2019 07:44",
-		"getUserNamed:" : "brunobb 02/15/2019 05:13",
-		"getUserNamed:ifAbsent:" : "brunobb 02/15/2019 05:13",
-		"initializeCache" : "brunobb 02/15/2019 05:10",
+		"getUserNamed:" : "brunobb 02/15/2019 06:47",
+		"getUserNamed:ifAbsent:" : "brunobb 02/15/2019 06:47",
+		"initializeCache" : "brunobb 02/15/2019 06:47",
 		"newUsername:password:forEnvironment:" : "brunobb 02/18/2019 06:50",
 		"populateCache" : "brunobb 02/15/2019 07:47" },
 	"instance" : {

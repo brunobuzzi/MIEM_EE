@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"eSCO" ],
-	"name" : "RepresentanteESCO",
+	"name" : "RepresentacionESCO",
 	"pools" : [
 		 ],
-	"super" : "Representante",
+	"super" : "Representacion",
 	"type" : "normal" }

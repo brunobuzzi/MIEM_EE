@@ -11,8 +11,8 @@ initializeAll
 	Rol initializeCache.
 	Sector initializeCache.
 	TarifaReferencia initializeCache.
-	Representante initializeCache.
-	RepresentanteESCO initializeCache.
+	Representacion initializeCache.
+	RepresentacionESCO initializeCache.
 	Empresa initializeCache.
 	Persona initializeCache.
 	ESCO initializeCache.

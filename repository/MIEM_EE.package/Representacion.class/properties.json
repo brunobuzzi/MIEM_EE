@@ -15,10 +15,11 @@
 		"habilitada",
 		"usuario",
 		"nombre",
+		"apellido",
 		"telefono",
 		"mail",
 		"postulaciones" ],
-	"name" : "Representante",
+	"name" : "Representacion",
 	"pools" : [
 		 ],
 	"super" : "ObjetoMIEM",
