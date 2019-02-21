@@ -2,4 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"createBusinessObjects" : "brunobb 02/21/2019 02:13",
+		"executeMapping" : "brunobb 02/21/2019 02:42",
+		"getMappingMethodFor:" : "brunobb 02/21/2019 02:13",
+		"getMappingMethodFor:ifAbsent:" : "brunobb 02/21/2019 02:13",
+		"getMappingMethods" : "brunobb 02/21/2019 02:13" } }

@@ -5,7 +5,7 @@ initialize
 
 	direccion :=  ''.
 	fax :=  ''.
-	representantes :=  Set new.
+	representaciones :=  Set new.
 	localidad :=  ''.
 	departamento :=  ''.
 	ciudad :=  ''.

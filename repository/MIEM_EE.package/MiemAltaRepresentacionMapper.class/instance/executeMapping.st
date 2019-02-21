@@ -1,0 +1,18 @@
+other
+executeMapping
+	| businessObjects representacion empresa instalaciones documentos |
+	"bpmProcessInstance atExternalVariable: 'mapper' put: self."
+
+	businessObjects := self createBusinessObjects.
+	representacion := businessObjects at: 1.
+	empresa := businessObjects at: 2.
+	instalaciones := businessObjects at: 3.
+	documentos := businessObjects at: 4.
+
+	documentos do: [:each | representacion agregarCertificadoRepresentacion: each].
+	instalaciones do: [:each | empresa registrarInstalacion: each.
+										representacion representarInstalacion: each].
+
+	"empresa addToCache."
+	"representacion addToCache."
+	^representacion

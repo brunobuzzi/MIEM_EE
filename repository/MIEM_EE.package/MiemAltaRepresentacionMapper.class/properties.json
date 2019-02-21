@@ -3,12 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Cache" ],
-	"commentStamp" : "",
+		 ],
+	"commentStamp" : "brunobb 02/21/2019 02:13",
 	"instvars" : [
 		 ],
 	"name" : "MiemAltaRepresentacionMapper",
 	"pools" : [
 		 ],
-	"super" : "AppProcessDomainObjectMapper",
+	"super" : "AppBpmProcessBusinessObjectMapper",
 	"type" : "normal" }
