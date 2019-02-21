@@ -1,6 +1,6 @@
 other
 initializeNavigationForUsuarioInterno
-	| subMenu1 subMenu2 subMenu3 |
+	| subMenu1 subMenu2 subMenu3 subMenu4 |
 
 	navigation := SewafPortalMenu new iconLibrary: MIEMIconLibrary.
 
@@ -9,12 +9,16 @@ initializeNavigationForUsuarioInterno
 		addItem: (SewafCommandItem label: 'Administrar Usuarios' command: #showUsuarios);
 		addItem: (SewafCommandItem label: 'Administrar Roles' command: #showRoles);
 		yourself.
-	subMenu2 := (SewafSubMenuItem label: 'Instrumentos' icon: #foldermydocuments32Png)
+	subMenu2 := (SewafSubMenuItem label: 'Representaciones' icon: #bluebox32Png)
+		set24Icon: #folderscheduledtasks24Png;
+		addItem: (SewafCommandItem label: 'Aproba Representación' command: #showUnassignedTasks);
+		yourself.
+	subMenu3 := (SewafSubMenuItem label: 'Instrumentos' icon: #foldermydocuments32Png)
 		set24Icon: #folderscheduledtasks24Png;
 		addItem: (SewafCommandItem label: 'Habilitaciones' command: #showUnassignedTasks);
 		addItem: (SewafCommandItem label: 'Postulaciones' command: #showUnassignedTasks);
 		yourself.
-	subMenu3 := (SewafSubMenuItem label: 'Paramétricas' icon: #setting32Png)
+	subMenu4 := (SewafSubMenuItem label: 'Paramétricas' icon: #setting32Png)
 		set24Icon: #processadd24Png;
 		addItem: (SewafCommandItem label: 'Autoconsumo' command: #showAutoconsumo);
 		addItem: (SewafCommandItem label: 'CIIU' command: #showCIIU);
@@ -24,4 +28,5 @@ initializeNavigationForUsuarioInterno
 		yourself.
 	navigation addItem: subMenu1;
 		addItem: subMenu2;
-		addItem: subMenu3.
+		addItem: subMenu3;
+		addItem: subMenu4.
