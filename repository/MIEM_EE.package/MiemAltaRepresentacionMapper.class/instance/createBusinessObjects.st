@@ -1,6 +1,6 @@
 other
 createBusinessObjects
-	| form mappingMethod representacion empresa instalaciones documentos |
+	| form mappingMethod representacion empresa instalaciones documentos aprobarForm |
 
 	form := (bpmProcessInstance getTaskNamed: 'alta-representaction' ifNone: []) externalObject.
 	mappingMethod := self getMappingMethodFor: form.
@@ -18,4 +18,6 @@ createBusinessObjects
 	mappingMethod := self getMappingMethodFor: form.
 	documentos := form perform: mappingMethod.
 
-	^Array with: representacion with: empresa with: instalaciones with: documentos
+	aprobarForm := (bpmProcessInstance getTaskNamed: 'aprobar-representacion' ifNone: []) externalObject.
+
+	^Array with: representacion with: empresa with: instalaciones with: documentos with: aprobarForm
