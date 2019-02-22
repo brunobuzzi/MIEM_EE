@@ -9,9 +9,10 @@ initializeNavigationForUsuarioInterno
 		addItem: (SewafCommandItem label: 'Administrar Usuarios' command: #showUsuarios);
 		addItem: (SewafCommandItem label: 'Administrar Roles' command: #showRoles);
 		yourself.
-	subMenu2 := (SewafSubMenuItem label: 'Representaciones' icon: #bluebox32Png)
+	subMenu2 := (SewafSubMenuItem label: 'Representacion' icon: #bluebox32Png)
 		set24Icon: #folderscheduledtasks24Png;
-		addItem: (SewafCommandItem label: 'Aproba Representación' command: #showUnassignedTasks);
+		addItem: (SewafCommandItem label: 'Tomar Representacion' command: #showRepresentacionesPendientes);
+		addItem: (SewafCommandItem label: 'Aprobar Representacion' command: #showAprobarRepresentaciones);
 		yourself.
 	subMenu3 := (SewafSubMenuItem label: 'Instrumentos' icon: #foldermydocuments32Png)
 		set24Icon: #folderscheduledtasks24Png;
@@ -26,7 +27,8 @@ initializeNavigationForUsuarioInterno
 		addItem: (SewafCommandItem label: 'Monedas' command: #showMonedas);
 		addItem: (SewafCommandItem label: 'Tarifa de Referencia' command: #showTarifasDeReferencia);
 		yourself.
-	navigation addItem: subMenu1;
+	navigation
 		addItem: subMenu2;
 		addItem: subMenu3;
+		addItem: subMenu1;
 		addItem: subMenu4.

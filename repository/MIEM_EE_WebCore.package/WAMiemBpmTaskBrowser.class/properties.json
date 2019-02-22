@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "WACrearRepresentacionBrowser",
+	"name" : "WAMiemBpmTaskBrowser",
 	"pools" : [
 		 ],
-	"super" : "WAMiemBpmTaskBrowser",
+	"super" : "WALinkedProcessBrowser",
 	"type" : "normal" }

@@ -2,14 +2,4 @@
 	"class" : {
 		 },
 	"instance" : {
-		"closeSendAndTakeNextForms:" : "brunobb 02/22/2019 10:15",
-		"createOrbeonLinkOn:for:" : "brunobb 02/21/2019 08:55",
-		"getUrlFor:with:" : "brunobb 02/21/2019 10:03",
-		"modeIsFinishedTasks" : "brunobb 02/21/2019 08:47",
-		"renderCloseAndSendFormOn:for:" : "brunobb 02/22/2019 10:12",
-		"renderCloseAndSendIconOn:for:" : "brunobb 02/22/2019 10:13",
-		"renderOrbeonLinkIconOn:for:" : "brunobb 02/21/2019 08:53",
-		"renderSearchCategoriesPanelOn:" : "brunobb 02/21/2019 09:06",
-		"renderSeasideFormLinkIconOn:for:" : "brunobb 02/21/2019 08:54",
-		"renderSwitchWindowOn:" : "brunobb 02/21/2019 09:10",
-		"renderTransitionFormDataOn:for:" : "brunobb 02/21/2019 08:50" } }
+		 } }

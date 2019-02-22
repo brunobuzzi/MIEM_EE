@@ -1,0 +1,4 @@
+bpm interaction
+getAllAvailableTaskAssignmentsIn: aBpmEnvironment
+
+	^self asBpmUser getAllAvailableTaskAssignmentsIn: aBpmEnvironment

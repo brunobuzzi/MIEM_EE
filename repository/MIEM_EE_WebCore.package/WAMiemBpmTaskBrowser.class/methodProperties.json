@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"closeSendAndTakeNextForms:" : "brunobb 02/22/2019 11:29",
+		"createOrbeonLinkOn:for:" : "brunobb 02/22/2019 11:29",
+		"getUrlFor:with:" : "brunobb 02/22/2019 11:29",
+		"modeIsFinishedTasks" : "brunobb 02/22/2019 11:29",
+		"renderCloseAndSendFormOn:for:" : "brunobb 02/22/2019 11:29",
+		"renderCloseAndSendIconOn:for:" : "brunobb 02/22/2019 11:29",
+		"renderOrbeonLinkIconOn:for:" : "brunobb 02/22/2019 11:29",
+		"renderSearchCategoriesPanelOn:" : "brunobb 02/22/2019 11:29",
+		"renderSeasideFormLinkIconOn:for:" : "brunobb 02/22/2019 11:29",
+		"renderSwitchWindowOn:" : "brunobb 02/22/2019 11:29",
+		"renderTransitionFormDataOn:for:" : "brunobb 02/22/2019 11:29" } }

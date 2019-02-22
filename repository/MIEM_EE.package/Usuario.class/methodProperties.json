@@ -15,6 +15,7 @@
 		"basicRemoveRol:" : "brunobb 02/15/2019 07:38",
 		"canDelete" : "brunobb 02/15/2019 11:35",
 		"esUsuarioInterno" : "brunobb 02/15/2019 09:02",
+		"getAllAvailableTaskAssignmentsIn:" : "brunobb 02/22/2019 11:24",
 		"getApplicationsIn:" : "brunobb 02/21/2019 06:22",
 		"getBackofficeApplicationsIn:" : "brunobb 02/18/2019 08:00",
 		"getBpmEnvironments" : "brunobb 02/15/2019 09:17",
@@ -38,6 +39,8 @@
 		"roles" : "brunobb 02/15/2019 06:47",
 		"roles:" : "brunobb 02/15/2019 06:47",
 		"rolesIn:" : "brunobb 02/18/2019 04:56",
+		"take:" : "brunobb 02/22/2019 11:27",
 		"transitionDisplayModeIsExpanded" : "brunobb 02/21/2019 06:23",
+		"untake:" : "brunobb 02/22/2019 11:27",
 		"userOptions" : "brunobb 02/15/2019 10:24",
 		"username" : "brunobb 02/15/2019 11:34" } }
