@@ -1,0 +1,4 @@
+bpm interaction
+getProcessInstanceCategoriesFor: aBpmProcessInstance
+
+	^self asBpmUser getProcessInstanceCategoriesFor: aBpmProcessInstance
