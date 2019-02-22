@@ -6,8 +6,7 @@ initializeNavigationForUsuarioExterno
 
 	subMenu1 := (SewafSubMenuItem label: 'Representaciones' icon: #bluebox32Png)
 		set24Icon: #folderscheduledtasks24Png;
-		addItem: (SewafCommandItem label: 'Datos Representante' command: #showUnassignedTasks);
-		addItem: (SewafCommandItem label: 'Crear Representacion' command: #showUnassignedTasks);
+		addItem: (SewafCommandItem label: 'Crear Representacion' command: #showCrearRepresentacion);
 		addItem: (SewafCommandItem label: 'Ver Representaciones' command: #showUnassignedTasks);
 		yourself.
 
