@@ -5,7 +5,7 @@ habilitarInstrumentoButton
 			renderBlock: [:each :html | | jQueryId |
 				each hayHabilitacionActiva
 				ifFalse: [
-					jQueryId := self renderJQueryPopupCompositeOn: html width: 350 height: 300 composite: WAHabilitarInstrumentoPopupComponent title: 'Habilitar Instrumento' domainObject: nil arguments: #().
+					jQueryId := self renderJQueryPopupCompositeOn: html width: 280 height: 300 composite: WAHabilitarInstrumentoPopupComponent title: 'Habilitar Instrumento' domainObject: each arguments: #().
 
 					html div class: 'float-right margin-left-5px'; with: [
 						html anchor 
