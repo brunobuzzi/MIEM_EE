@@ -2,10 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"columnsForItems" : "brunobb 02/25/2019 09:09",
+		"columnsForItems" : "brunobb 02/25/2019 09:30",
 		"currentItems" : "brunobb 02/25/2019 08:59",
 		"currentItems:" : "brunobb 02/25/2019 08:58",
 		"getItemsList" : "brunobb 02/25/2019 08:59",
+		"habilitarInstrumentoButton" : "brunobb 02/25/2019 10:14",
 		"initialize" : "brunobb 02/25/2019 08:57",
 		"initializeTableFoInstrumentos" : "brunobb 02/25/2019 09:08",
 		"instrumentosBatchList" : "brunobb 02/25/2019 08:56",
