@@ -9,6 +9,7 @@
 		"tieneSeguimientoAnual",
 		"habilitaciones",
 		"nombre",
+		"descripcion",
 		"tieneSeguimientoSemestral" ],
 	"name" : "Instrumento",
 	"pools" : [

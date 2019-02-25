@@ -1,0 +1,4 @@
+other
+canDelete
+
+	^habilitaciones isEmpty

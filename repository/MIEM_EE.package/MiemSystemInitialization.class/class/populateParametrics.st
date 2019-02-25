@@ -9,5 +9,6 @@ populateParametrics
 	TarifaReferencia populateCache.
 	Rol populateCache.
 	Usuario populateCache.
+	Instrumento populateCache.
 
 	self setUpDefaultEnvironment.

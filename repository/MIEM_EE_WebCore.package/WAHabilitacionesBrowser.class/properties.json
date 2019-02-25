@@ -1,0 +1,15 @@
+{
+	"category" : "MIEM_EE_WebCore",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"instrumentosBatchList",
+		"currentItems" ],
+	"name" : "WAHabilitacionesBrowser",
+	"pools" : [
+		 ],
+	"super" : "SEWAFWebObjectComposite",
+	"type" : "normal" }

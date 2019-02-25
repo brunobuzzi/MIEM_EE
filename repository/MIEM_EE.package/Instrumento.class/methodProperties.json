@@ -1,14 +1,18 @@
 {
 	"class" : {
-		"cache" : "brunobb 02/13/2019 09:37",
-		"initializeCache" : "brunobb 02/13/2019 11:19" },
+		"cache" : "brunobb 02/25/2019 08:33",
+		"initializeCache" : "brunobb 02/25/2019 08:33",
+		"populateCache" : "brunobb 02/25/2019 08:36" },
 	"instance" : {
-		"habilitaciones" : "brunobb 02/13/2019 09:38",
-		"habilitaciones:" : "brunobb 02/13/2019 09:38",
-		"initialize" : "brunobb 02/13/2019 09:37",
-		"nombre" : "brunobb 02/13/2019 09:37",
-		"nombre:" : "brunobb 02/13/2019 09:37",
-		"tieneSeguimientoAnual" : "brunobb 02/13/2019 09:37",
-		"tieneSeguimientoAnual:" : "brunobb 02/13/2019 09:37",
-		"tieneSeguimientoSemestral" : "brunobb 02/13/2019 09:37",
-		"tieneSeguimientoSemestral:" : "brunobb 02/13/2019 09:37" } }
+		"canDelete" : "brunobb 02/25/2019 08:46",
+		"descripcion" : "brunobb 02/25/2019 08:33",
+		"descripcion:" : "brunobb 02/25/2019 08:33",
+		"habilitaciones" : "brunobb 02/25/2019 08:33",
+		"habilitaciones:" : "brunobb 02/25/2019 08:33",
+		"initialize" : "brunobb 02/25/2019 08:33",
+		"nombre" : "brunobb 02/25/2019 08:33",
+		"nombre:" : "brunobb 02/25/2019 08:33",
+		"tieneSeguimientoAnual" : "brunobb 02/25/2019 08:33",
+		"tieneSeguimientoAnual:" : "brunobb 02/25/2019 08:33",
+		"tieneSeguimientoSemestral" : "brunobb 02/25/2019 08:33",
+		"tieneSeguimientoSemestral:" : "brunobb 02/25/2019 08:33" } }
