@@ -1,0 +1,4 @@
+other
+modeIsCurrentTasks
+
+	^false

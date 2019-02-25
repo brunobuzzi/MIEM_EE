@@ -11,8 +11,9 @@ initializeNavigationForUsuarioInterno
 		yourself.
 	subMenu2 := (SewafSubMenuItem label: 'Representacion' icon: #bluebox32Png)
 		set24Icon: #folderscheduledtasks24Png;
-		addItem: (SewafCommandItem label: 'Tomar Representacion' command: #showRepresentacionesPendientes);
-		addItem: (SewafCommandItem label: 'Aprobar Representacion' command: #showAprobarRepresentaciones);
+		addItem: (SewafCommandItem label: 'Tomar Representación' command: #showRepresentacionesPendientes);
+		addItem: (SewafCommandItem label: 'Aprobar Representación' command: #showAprobarRepresentaciones);
+		addItem: (SewafCommandItem label: 'Ver Representación' command: #showVerRepresentaciones);
 		yourself.
 	subMenu3 := (SewafSubMenuItem label: 'Instrumentos' icon: #foldermydocuments32Png)
 		set24Icon: #folderscheduledtasks24Png;

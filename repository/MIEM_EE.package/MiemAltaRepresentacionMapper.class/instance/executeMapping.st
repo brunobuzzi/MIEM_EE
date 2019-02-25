@@ -1,7 +1,6 @@
 other
 executeMapping
 	| businessObjects representacion empresa instalaciones documentos aprobarForm |
-	"bpmProcessInstance atExternalVariable: 'mapper' put: self."
 
 	businessObjects := self createBusinessObjects.
 	representacion := businessObjects at: 1.
@@ -14,8 +13,8 @@ executeMapping
 	instalaciones do: [:each | empresa registrarInstalacion: each.
 										representacion representarInstalacion: each].
 
-	"empresa addToCache."
-	"representacion addToCache."
+	empresa addToCache.
+	representacion addToCache.
 
 	representacion habilitada: true;
 		aprobada: aprobarForm aprobada.
