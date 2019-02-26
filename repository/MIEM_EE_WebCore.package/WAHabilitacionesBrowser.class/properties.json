@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"instrumentosBatchList",
-		"currentItems" ],
+		"currentItems",
+		"habilitacionesBatchList",
+		"selectedHabilitacion" ],
 	"name" : "WAHabilitacionesBrowser",
 	"pools" : [
 		 ],
