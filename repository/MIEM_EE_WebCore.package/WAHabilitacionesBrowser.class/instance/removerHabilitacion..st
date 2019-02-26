@@ -1,0 +1,4 @@
+other
+removerHabilitacion: unaHabilitacionInstrumento
+
+	self selectedInstrumentoOrNil removerHabilitacion: unaHabilitacionInstrumento
