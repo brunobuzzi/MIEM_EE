@@ -12,7 +12,7 @@ initializeNavigationForUsuarioExterno
 
 	subMenu2 := (SewafSubMenuItem label: 'Instrumentos' icon: #foldermydocuments32Png)
 		set24Icon: #folderscheduledtasks24Png;
-		addItem: (SewafCommandItem label: 'Postular' command: #showUnassignedTasks);
+		addItem: (SewafCommandItem label: 'Postular' command: #showPostularAInstrumento);
 		addItem: (SewafCommandItem label: 'Postulaciones Actules' command: #showUnassignedTasks);
 		addItem: (SewafCommandItem label: 'Postulaciones Cerradas' command: #showUnassignedTasks);
 		yourself.
