@@ -1,0 +1,14 @@
+{
+	"category" : "MIEM_EE_WebSeaside",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WASeleccionarPostulacionForm",
+	"pools" : [
+		 ],
+	"super" : "WASeasideBpmIntegration",
+	"type" : "normal" }
