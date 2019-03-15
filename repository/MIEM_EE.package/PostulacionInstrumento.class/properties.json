@@ -10,7 +10,8 @@
 		"habilitacionInstrumento",
 		"fechaPostulacion",
 		"instalacion",
-		"medidaEficienciaEnergetica" ],
+		"medidasEficienciaEnergetica",
+		"estado" ],
 	"name" : "PostulacionInstrumento",
 	"pools" : [
 		 ],

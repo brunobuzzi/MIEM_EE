@@ -4,4 +4,10 @@
 		"getTooltipOrNil" : "brunobb 03/14/2019 05:31",
 		"hasFieldNamed:" : "brunobb 03/13/2019 13:36" },
 	"instance" : {
-		"hasTooltip" : "brunobb 03/14/2019 05:14" } }
+		"changeHabilitacionInstrumento:" : "brunobb 03/15/2019 11:29",
+		"getHabilitacionesList" : "brunobb 03/15/2019 11:10",
+		"hasTooltip" : "brunobb 03/14/2019 05:14",
+		"initialize" : "brunobb 03/15/2019 11:06",
+		"initializeSewafTableForHabilitaciones" : "brunobb 03/15/2019 11:33",
+		"renderContentOn:" : "brunobb 03/15/2019 11:37",
+		"sewafTableForHabilitaciones" : "brunobb 03/15/2019 11:33" } }

@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"cache" : "brunobb 02/25/2019 08:33",
+		"habilitacionesActivas" : "brunobb 03/15/2019 11:12",
 		"initializeCache" : "brunobb 02/25/2019 08:33",
 		"populateCache" : "brunobb 02/25/2019 08:36" },
 	"instance" : {
@@ -10,6 +11,7 @@
 		"descripcion:" : "brunobb 02/25/2019 08:33",
 		"habilitaciones" : "brunobb 02/25/2019 08:33",
 		"habilitaciones:" : "brunobb 02/25/2019 08:33",
+		"habilitacionesActivas" : "brunobb 03/15/2019 09:15",
 		"hayHabilitacionActiva" : "brunobb 02/25/2019 10:01",
 		"initialize" : "brunobb 02/25/2019 08:33",
 		"nombre" : "brunobb 02/25/2019 08:33",

@@ -1,0 +1,6 @@
+other
+changeHabilitacionInstrumento: unaHabilitacionInstrumento
+
+	taskInstance externalObject: unaHabilitacionInstrumento.
+	self model: unaHabilitacionInstrumento.
+	self sewafTableForHabilitaciones selectedObject: unaHabilitacionInstrumento.

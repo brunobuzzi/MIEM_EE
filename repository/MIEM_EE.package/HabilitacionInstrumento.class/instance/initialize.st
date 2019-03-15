@@ -7,3 +7,4 @@ initialize
 	inicioPlazo :=  Date today.
 	finPlazo :=  inicioPlazo addDays: 365.
 	postulaciones := Set new.
+	descripcion := ''.

@@ -10,7 +10,8 @@
 		"finPlazo",
 		"postulaciones",
 		"estaVigente",
-		"inicioPlazo" ],
+		"inicioPlazo",
+		"descripcion" ],
 	"name" : "HabilitacionInstrumento",
 	"pools" : [
 		 ],
