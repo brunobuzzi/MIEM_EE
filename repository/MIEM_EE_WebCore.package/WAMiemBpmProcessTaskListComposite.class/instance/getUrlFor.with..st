@@ -9,6 +9,6 @@ getUrlFor: aBpmArtifactInstance with: anUUID
 					ifTrue: [self buildNewUrlFor: aBpmArtifactInstance with: anUUID]] "Orbeon NEW link"
 		ifTrue: [(aBpmArtifactInstance isDone 
 						or:[(aBpmArtifactInstance isGrantedUser: self session user asBpmUser) not 
-						or: [(aBpmArtifactInstance innerTaskHasBeenFinalizedBy: self session user asBpmUser) and: [self modeIsFinishedTasks]]])
+						or: [(aBpmArtifactInstance innerTaskHasBeenFinalizedBy: self session user asBpmUser) and: [mainPanel modeIsFinishedTasks]]])
 			ifFalse: [self buildEditUrlFor: aBpmArtifactInstance with: anUUID] "Orbeon EDIT link"
 			ifTrue: [self buildViewUrlFor: aBpmArtifactInstance with: anUUID]] "Orbeon VIEW link"

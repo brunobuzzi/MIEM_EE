@@ -1,4 +1,4 @@
-process
+other
 createOrbeonLinkOn: html for: aBpmArtifactInstance
 
 	"when a role has more than one active task with permission --> the edit and new icon is showed only with the properly assignment"

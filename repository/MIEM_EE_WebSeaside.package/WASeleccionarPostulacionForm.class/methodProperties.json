@@ -1,5 +1,7 @@
 {
 	"class" : {
-		 },
+		"defaultModel" : "brunobb 03/14/2019 04:26",
+		"getTooltipOrNil" : "brunobb 03/14/2019 05:31",
+		"hasFieldNamed:" : "brunobb 03/13/2019 13:36" },
 	"instance" : {
-		 } }
+		"hasTooltip" : "brunobb 03/14/2019 05:14" } }

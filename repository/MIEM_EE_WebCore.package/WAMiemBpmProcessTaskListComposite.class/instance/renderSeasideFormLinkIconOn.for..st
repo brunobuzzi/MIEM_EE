@@ -1,4 +1,4 @@
-process
+other
 renderSeasideFormLinkIconOn: html for: aBpmSeasideTaskInstance
 
 	"a granted user with edit permission"
