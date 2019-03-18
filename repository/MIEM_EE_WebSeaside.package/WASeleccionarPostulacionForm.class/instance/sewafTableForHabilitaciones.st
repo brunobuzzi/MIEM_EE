@@ -6,6 +6,6 @@ sewafTableForHabilitaciones
 		ifTrue: [self getTableNamed: 'habilitaciones' ifAbsent: []] 
 		ifFalse: [self initializeSewafTableForHabilitaciones].
 
-	table	selectedObject: self model.
+	table	selectedObject: self model habilitacionInstrumento.
 
 	^table

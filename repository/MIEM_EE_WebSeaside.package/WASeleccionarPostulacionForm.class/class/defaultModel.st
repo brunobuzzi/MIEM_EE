@@ -1,4 +1,4 @@
 other
 defaultModel
 
-	^HabilitacionInstrumento new
+	^PostulacionInstrumento new

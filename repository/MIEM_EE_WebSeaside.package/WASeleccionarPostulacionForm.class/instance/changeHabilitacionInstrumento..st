@@ -1,6 +1,10 @@
 other
 changeHabilitacionInstrumento: unaHabilitacionInstrumento
+	| currentObject |
 
-	taskInstance externalObject: unaHabilitacionInstrumento.
-	self model: unaHabilitacionInstrumento.
-	self sewafTableForHabilitaciones selectedObject: unaHabilitacionInstrumento.
+	currentObject := (unaHabilitacionInstrumento == model habilitacionInstrumento)
+							ifTrue: [nil]
+							ifFalse: [unaHabilitacionInstrumento].
+
+	model habilitacionInstrumento: currentObject.
+	self sewafTableForHabilitaciones selectedObject: currentObject.

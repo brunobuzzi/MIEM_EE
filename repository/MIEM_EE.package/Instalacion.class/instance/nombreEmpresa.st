@@ -1,0 +1,4 @@
+other
+nombreEmpresa
+
+	^empresa razonSocial

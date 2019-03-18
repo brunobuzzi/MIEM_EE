@@ -1,0 +1,4 @@
+other
+nombreUsuario
+
+	^usuario nombre

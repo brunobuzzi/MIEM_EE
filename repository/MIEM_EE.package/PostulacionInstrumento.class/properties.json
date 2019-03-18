@@ -11,7 +11,8 @@
 		"fechaPostulacion",
 		"instalacion",
 		"medidasEficienciaEnergetica",
-		"estado" ],
+		"estado",
+		"representacion" ],
 	"name" : "PostulacionInstrumento",
 	"pools" : [
 		 ],
