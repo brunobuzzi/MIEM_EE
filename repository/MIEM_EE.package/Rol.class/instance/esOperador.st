@@ -1,0 +1,4 @@
+other
+esOperador
+
+	^nombre = 'Operador'

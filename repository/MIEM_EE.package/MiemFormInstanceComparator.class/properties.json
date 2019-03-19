@@ -1,0 +1,14 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"process" ],
+	"name" : "MiemFormInstanceComparator",
+	"pools" : [
+		 ],
+	"super" : "ObjetoMIEM",
+	"type" : "normal" }
