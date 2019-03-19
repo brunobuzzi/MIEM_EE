@@ -1,4 +1,6 @@
-other
+bpm interaction
 getUserName
 
-	^'BUG: Check This'
+	representacion ifNil: [^'N/A'].
+
+	^representacion nombreUsuario
