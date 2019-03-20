@@ -2,8 +2,14 @@
 	"class" : {
 		"newOn:" : "brunobb 03/19/2019 10:15" },
 	"instance" : {
-		"compareEscenarios" : "brunobb 03/19/2019 10:14",
+		"compareEscenarios" : "brunobb 03/19/2019 11:03",
+		"comparisons" : "brunobb 03/19/2019 10:58",
+		"comparisons:" : "brunobb 03/19/2019 10:58",
+		"fieldValuesDo:" : "brunobb 03/20/2019 06:10",
 		"fieldsToCompareScenarioConMedida" : "brunobb 03/19/2019 10:10",
 		"fieldsToCompareScenarioSinMedida" : "brunobb 03/19/2019 10:07",
+		"generateFormFieldValueSet" : "brunobb 03/20/2019 06:09",
+		"getDifferences" : "brunobb 03/19/2019 11:01",
+		"getUserName" : "brunobb 03/20/2019 06:07",
 		"process" : "brunobb 03/19/2019 10:01",
 		"process:" : "brunobb 03/19/2019 10:01" } }

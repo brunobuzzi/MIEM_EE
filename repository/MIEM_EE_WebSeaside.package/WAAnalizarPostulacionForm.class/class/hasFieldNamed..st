@@ -1,0 +1,4 @@
+other
+hasFieldNamed: aString
+
+	^false

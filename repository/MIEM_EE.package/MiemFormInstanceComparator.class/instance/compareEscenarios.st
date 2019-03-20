@@ -1,12 +1,16 @@
 other
 compareEscenarios
-	| comparison |
 
-	comparison := Dictionary new.
+	comparisons := Dictionary new.
 
-	self fieldsToCompareScenarioSinMedida keysAndValuesDo: [:index :escSinMedidaFieldName | | escConMedidaFieldName |
+	self fieldsToCompareScenarioSinMedida keysAndValuesDo: [:index :escSinMedidaFieldName | | escConMedidaFieldName comparison |
 		escConMedidaFieldName := self fieldsToCompareScenarioConMedida at: index.
-		comparison at: escSinMedidaFieldName put: (Array with: (process getBasicValueOfProcessField: escSinMedidaFieldName) with: (process getBasicValueOfProcessField: escConMedidaFieldName)).		
+		comparison := MiemFormFieldComparison 
+								newFor: escSinMedidaFieldName 
+								with: (process getValueOfProcessField: escSinMedidaFieldName)
+								with: (process getValueOfProcessField: escConMedidaFieldName).
+
+		comparisons at: escSinMedidaFieldName put: comparison.		
 	].
 
-	^comparison
+	^self getDifferences

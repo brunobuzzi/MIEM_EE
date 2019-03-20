@@ -1,15 +1,14 @@
 {
-	"category" : "MIEM_EE",
+	"category" : "MIEM_EE_WebSeaside",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"process",
-		"comparisons" ],
-	"name" : "MiemFormInstanceComparator",
+		 ],
+	"name" : "WAAnalizarPostulacionForm",
 	"pools" : [
 		 ],
-	"super" : "ObjetoMIEM",
+	"super" : "WASeasideBpmIntegration",
 	"type" : "normal" }
