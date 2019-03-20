@@ -42,6 +42,12 @@ allCss
 	background-color: white;
 	border-radius: 5px;
 }
-
-
+.boton-cerrar {}
+.boton-cerrar fieldset {
+	border: none;
+}
+.boton-cerrar fieldset input {
+	border-radius: 10px;
+	float: right;
+}
 '
