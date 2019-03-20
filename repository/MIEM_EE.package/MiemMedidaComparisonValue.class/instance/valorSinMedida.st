@@ -1,0 +1,3 @@
+Accessing
+valorSinMedida
+	^valorSinMedida

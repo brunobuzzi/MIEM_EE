@@ -1,0 +1,4 @@
+other
+hasProcess
+
+	^process notNil

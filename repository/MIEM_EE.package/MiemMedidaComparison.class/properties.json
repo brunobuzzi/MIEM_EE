@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"process",
-		"comparisons",
+		"nombreMedida",
 		"differences" ],
-	"name" : "MiemFormInstanceComparator",
+	"name" : "MiemMedidaComparison",
 	"pools" : [
 		 ],
 	"super" : "ObjetoMIEM",

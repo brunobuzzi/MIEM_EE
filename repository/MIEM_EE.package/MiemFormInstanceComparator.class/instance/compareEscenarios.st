@@ -13,4 +13,10 @@ compareEscenarios
 		comparisons at: escSinMedidaFieldName put: comparison.		
 	].
 
-	^self getDifferences
+	self getDifferences keysAndValuesDo: [:nombreMedida :dictionary | | medidaComparison |
+		medidaComparison := MiemMedidaComparison newFor: nombreMedida.
+		dictionary keysAndValuesDo: [:fieldName :values |
+			medidaComparison addDifference: (MiemMedidaComparisonValue newFor: fieldName value1: (values at: 1) value2: (values at: 2)).
+		].
+		differences add: medidaComparison.
+	]
