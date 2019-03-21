@@ -1,7 +1,7 @@
 other
 showRepresentacionesPendientes
 
-	(arena isKindOf: WAMiemTareasPendientesBrowser)
+	(arena isKindOf: WAMiemRepresentacionesPendientesBrowser)
 	ifTrue: [^arena].
 
-	^WAMiemTareasPendientesBrowser parent: self
+	^WAMiemRepresentacionesPendientesBrowser parent: self

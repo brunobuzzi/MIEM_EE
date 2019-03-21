@@ -1,0 +1,14 @@
+{
+	"category" : "MIEM_EE_WebCore",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAMiemPostulacionesPendientesBrowser",
+	"pools" : [
+		 ],
+	"super" : "WAMiemTareasPendientesBrowser",
+	"type" : "normal" }

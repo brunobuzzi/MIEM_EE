@@ -1,5 +1,5 @@
 other
-showPostularAInstrumento
+showPostulacionesActuales
 
 	(arena isKindOf: WAPostularAInstrumentoBrowser)
 	ifTrue: [^arena].

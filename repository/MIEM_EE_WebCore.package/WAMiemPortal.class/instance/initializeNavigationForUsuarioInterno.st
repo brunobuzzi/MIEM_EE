@@ -18,7 +18,8 @@ initializeNavigationForUsuarioInterno
 	subMenu3 := (SewafSubMenuItem label: 'Instrumentos' icon: #foldermydocuments32Png)
 		set24Icon: #folderscheduledtasks24Png;
 		addItem: (SewafCommandItem label: 'Habilitaciones' command: #showHabilitacionesBrowser);
-		addItem: (SewafCommandItem label: 'Postulaciones' command: #showUnassignedTasks);
+		addItem: (SewafCommandItem label: 'Postulaciones Actuales' command: #showPostulacionesActuales);
+		addItem: (SewafCommandItem label: 'Postulaciones Pendientes' command: #showPostulacionesPendientes);
 		yourself.
 	subMenu4 := (SewafSubMenuItem label: 'Paramétricas' icon: #setting32Png)
 		set24Icon: #processadd24Png;
