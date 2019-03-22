@@ -1,0 +1,14 @@
+{
+	"category" : "MIEM_EE_WebBpmIntegration",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WAMiemTareasPendientesBrowser",
+	"pools" : [
+		 ],
+	"super" : "WABpmUnassignedTaskBrowser",
+	"type" : "normal" }

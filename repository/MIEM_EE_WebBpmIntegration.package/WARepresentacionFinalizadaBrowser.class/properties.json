@@ -1,0 +1,14 @@
+{
+	"category" : "MIEM_EE_WebBpmIntegration",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WARepresentacionFinalizadaBrowser",
+	"pools" : [
+		 ],
+	"super" : "WAMiemBpmTaskBrowser",
+	"type" : "normal" }
