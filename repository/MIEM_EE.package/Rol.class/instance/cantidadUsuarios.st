@@ -1,4 +1,4 @@
-bpm interaction
+other
 cantidadUsuarios
 
 	^usuarios size
