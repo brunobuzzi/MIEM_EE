@@ -4,7 +4,7 @@ executeMapping
 
 	businessObjects := self createBusinessObjects.
 	representacion := businessObjects at: 1.
-	empresa := businessObjects at: 2. "check if already exist update: OrbeonFormInstance>>asNewEmpresa"
+	empresa := businessObjects at: 2. "check if already exist update if not create a new one"
 	instalaciones := businessObjects at: 3.
 	documentos := businessObjects at: 4.
 	aprobarForm := businessObjects at: 5.
