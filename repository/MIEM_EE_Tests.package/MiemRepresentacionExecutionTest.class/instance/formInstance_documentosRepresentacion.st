@@ -1,5 +1,5 @@
 form instances
-formInstance_DocumentosRepresentacion
+formInstance_documentosRepresentacion
 
 	^self formCreatorClass 
 					createFormInstance: #form_documentos_representacion_1

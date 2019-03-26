@@ -23,10 +23,10 @@ testAltaRepresentacionKaplan
 
 	"Step 4 - Form [documentos-representacion]"
 	currentTask := procInstance currentActivities last.
-	self processExecutionSimulator takeAndFinalizeTask: currentTask withUserNamed: 'juan@MIEM' withForm: self formInstance_DocumentosRepresentacion on: procInstance.
+	self processExecutionSimulator takeAndFinalizeTask: currentTask withUserNamed: 'juan@MIEM' withForm: self formInstance_documentosRepresentacion on: procInstance.
 	self assert: (currentTask getDefinitionName = 'documentos-representacion').
 
 	"Step 5 - Form [aprobar-representacion]"
 	currentTask := procInstance currentActivities last.
-	self processExecutionSimulator takeAndFinalizeTask: currentTask withUserNamed: 'pedro@MIEM' withForm: self formInstance_AprobarRepresentacion on: procInstance.
+	self processExecutionSimulator takeAndFinalizeTask: currentTask withUserNamed: 'pedro@MIEM' withForm: self formInstance_aprobarRepresentacion on: procInstance.
 	self assert: (currentTask getDefinitionName = 'aprobar-representacion').

@@ -1,14 +1,14 @@
 {
-	"category" : "MIEM_EE",
+	"category" : "MIEM_EE_Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Cache" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"nombre" ],
-	"name" : "UsoMedida",
+		 ],
+	"name" : "InstrumentoTest",
 	"pools" : [
 		 ],
-	"super" : "ObjetoMIEM",
+	"super" : "TestCase",
 	"type" : "normal" }

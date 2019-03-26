@@ -1,14 +1,14 @@
 {
-	"category" : "MIEM_EE",
+	"category" : "MIEM_EE_Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Cache" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"nombre" ],
-	"name" : "UsoMedida",
+		 ],
+	"name" : "NombreMedidaEficienciaEnergeticaTest",
 	"pools" : [
 		 ],
-	"super" : "ObjetoMIEM",
+	"super" : "TestCase",
 	"type" : "normal" }

@@ -1,5 +1,5 @@
 form instances
-formInstance_AprobarRepresentacion
+formInstance_aprobarRepresentacion
 
 	^self formCreatorClass 
 					createFormInstance: #form_aprobar_representacion_1

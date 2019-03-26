@@ -1,6 +1,9 @@
 {
 	"class" : {
-		 },
+		"cache" : "brunobb 03/26/2019 05:46",
+		"initializeCache" : "brunobb 03/26/2019 05:46",
+		"populateCache" : "brunobb 03/26/2019 05:43",
+		"validNames" : "brunobb 03/26/2019 05:42" },
 	"instance" : {
 		"initialize" : "brunobb 02/13/2019 09:28",
 		"nombre" : "brunobb 02/13/2019 09:28",

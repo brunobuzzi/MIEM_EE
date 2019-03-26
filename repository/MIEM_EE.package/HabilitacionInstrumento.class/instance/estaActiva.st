@@ -1,4 +1,4 @@
 other
 estaActiva
 
-	^Date today <= finPlazo
+	^(Date today <= finPlazo) and: [estaVigente]
