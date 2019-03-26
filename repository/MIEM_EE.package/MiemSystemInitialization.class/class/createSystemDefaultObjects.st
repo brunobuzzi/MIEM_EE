@@ -1,8 +1,11 @@
 other
-setUpDefaultEnvironment
+createSystemDefaultObjects
 	| defaultEnvironment adminUser |
 
-	defaultEnvironment := BpmEnvironment newNamed: 'MIEM'.
+	(OrderedCollection new add: Autoconsumo; add: CIIU; add: FuenteEnergia; add:Moneda; add: Sector; add: TarifaReferencia; add: Rol; add: Usuario; add: Instrumento; yourself) 
+		do: [:eachClass | eachClass populateCache].
+
+	defaultEnvironment := self defaultEnvironmentClass newNamed: 'MIEM'.
 
 	adminUser := Usuario getUserNamed: 'admin'.
 	defaultEnvironment registerUser: adminUser asBpmUser ifPresent: [].

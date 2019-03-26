@@ -4,7 +4,7 @@ setUp
 
 	processExecutionSimulator := PEFBpmProcessExecutor new.
 
-	environment := BpmEnvironment getExistingEnvironmentOrCreateNewNamed: 'MIEM'.
+	environment := self defaultEnvironmentClass getExistingEnvironmentOrCreateNewNamed: 'MIEM'.
 
 	application := self getOrbeonApplicationClass 
 							getAnyApplicationNamed: 'dne' 
@@ -12,7 +12,7 @@ setUp
 
 	application hasBpmEnvironment ifFalse: [environment registerApplication: application].
 
-	procDefinition := BpmProcessDefinition getAllProcessesNamed: 'alta-representacion' in: 'dne'. "answer a collection with all versions"
+	procDefinition := self defaultProcessDefinitionClass getAllProcessesNamed: 'alta-representacion' in: 'dne'. "answer a collection with all versions"
 	
 	procDefinition := procDefinition ifEmpty: [self createProcessDefinition] ifNotEmpty: [:collection | collection last].
 	environment := procDefinition bpmEnvironment.
@@ -25,7 +25,7 @@ setUp
 	environment registerUser: (self getUserNamed: 'juan@MIEM').
 	environment registerUser: (self getUserNamed: 'pedro@MIEM').
 
-	(BpmFrontOfficeRole getRoleNamed: 'Empresa' in: 'dne') grantUser: (self getUserNamed: 'juan@MIEM') ifPresent: [].
+	(self defaultFrontOfficeRoleClass getRoleNamed: 'Empresa' in: 'dne') grantUser: (self getUserNamed: 'juan@MIEM') ifPresent: [].
 	(Rol getExistingOrNewRolerNamed: 'Empresa' withType: 'Externo' in: Rol defaultBpmApplication) grantUsuario: (self getUserNamed: 'juan@MIEM').
-	(BpmFrontOfficeRole getRoleNamed: 'Operador' in: 'dne') grantUser: (self getUserNamed: 'pedro@MIEM') ifPresent: [].
+	(self defaultFrontOfficeRoleClass getRoleNamed: 'Operador' in: 'dne') grantUser: (self getUserNamed: 'pedro@MIEM') ifPresent: [].
 	(Rol getExistingOrNewRolerNamed: 'Operador' withType: 'Interno' in: Rol defaultBpmApplication) grantUsuario: (self getUserNamed: 'pedro@MIEM').
