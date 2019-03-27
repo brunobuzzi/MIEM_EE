@@ -1,0 +1,14 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"coments" ],
+	"name" : "PostulacionAnalisis",
+	"pools" : [
+		 ],
+	"super" : "ObjetoMIEM",
+	"type" : "normal" }
