@@ -1,12 +1,14 @@
 {
 	"class" : {
-		"cache" : "brunobb 02/13/2019 09:35",
-		"initializeCache" : "brunobb 02/13/2019 11:20",
-		"populateExampleCache" : "brunobb 03/26/2019 05:57",
-		"validNamesExample" : "brunobb 03/26/2019 05:55" },
+		"cache" : "brunobb 03/26/2019 08:34",
+		"initializeCache" : "brunobb 03/26/2019 08:34",
+		"populateExampleCache" : "brunobb 03/26/2019 08:38",
+		"validNamesExample" : "brunobb 03/26/2019 08:37" },
 	"instance" : {
-		"initialize" : "brunobb 02/13/2019 09:27",
-		"nombre" : "brunobb 02/13/2019 09:27",
-		"nombre:" : "brunobb 02/13/2019 09:27",
-		"usoMedida" : "brunobb 02/13/2019 09:27",
-		"usoMedida:" : "brunobb 02/13/2019 09:27" } }
+		"code" : "brunobb 03/26/2019 08:39",
+		"code:" : "brunobb 03/26/2019 08:39",
+		"initialize" : "brunobb 03/26/2019 08:34",
+		"nombre" : "brunobb 03/26/2019 08:34",
+		"nombre:" : "brunobb 03/26/2019 08:34",
+		"usoMedida" : "brunobb 03/26/2019 08:34",
+		"usoMedida:" : "brunobb 03/26/2019 08:34" } }

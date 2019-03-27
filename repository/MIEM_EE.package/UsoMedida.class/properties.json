@@ -6,7 +6,8 @@
 		"Cache" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"nombre" ],
+		"nombre",
+		"code" ],
 	"name" : "UsoMedida",
 	"pools" : [
 		 ],

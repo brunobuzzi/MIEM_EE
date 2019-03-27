@@ -3,8 +3,9 @@ populateExampleCache
 
 	self initializeCache.
 
-	self validNamesExample do: [:each | | nombreMEE |
+	self validNamesExample do: [:assoc | | nombreMEE |
 		nombreMEE := self new.
-		nombreMEE nombre: each.
+		nombreMEE nombre: assoc value;
+			code: assoc key.
 		nombreMEE usoMedida: UsoMedida cache asArray randomPeek.
 		nombreMEE addToCache]

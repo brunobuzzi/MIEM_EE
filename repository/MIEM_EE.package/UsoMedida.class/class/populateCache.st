@@ -3,7 +3,8 @@ populateCache
 
 	self initializeCache.
 
-	self validNames do: [:each | | usoMedida |
+	self validNames do: [:assoc | | usoMedida |
 		usoMedida := self new.
-		usoMedida nombre: each.
+		usoMedida nombre: assoc value;
+			code: assoc key.
 		usoMedida addToCache]
