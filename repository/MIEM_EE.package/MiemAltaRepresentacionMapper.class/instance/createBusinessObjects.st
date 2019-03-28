@@ -1,4 +1,4 @@
-other
+mapping
 createBusinessObjects
 	| form mappingMethod representacion empresa instalaciones documentos aprobarForm |
 

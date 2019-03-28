@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"executeMapping" : "brunobb 03/27/2019 09:29" } }
+		"createBusinessObjects" : "brunobb 03/27/2019 12:36",
+		"executeMapping" : "brunobb 03/27/2019 12:31",
+		"getMappingMethods" : "brunobb 03/27/2019 12:45" } }

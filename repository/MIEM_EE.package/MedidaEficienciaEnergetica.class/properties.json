@@ -9,6 +9,8 @@
 		"moneda",
 		"esOperativa",
 		"vidaUtil",
+		"usoPrincipal",
+		"fechaInicioOperacion",
 		"escenarioSinMedidas",
 		"inversionTotal",
 		"escenarioConMedidas",

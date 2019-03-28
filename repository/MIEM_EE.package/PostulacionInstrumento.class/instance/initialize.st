@@ -4,5 +4,5 @@ initialize
 	super initialize.
 
 	fechaPostulacion := Date today.
-	estado := #enProceso.
+	estado := #enProceso. "#enProceso #rechazada #aprobada"
 	medidasEficienciaEnergetica := Set new.

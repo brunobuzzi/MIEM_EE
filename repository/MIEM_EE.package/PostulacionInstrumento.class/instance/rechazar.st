@@ -1,0 +1,4 @@
+other
+rechazar
+
+	estado := #rechazada

@@ -1,3 +1,6 @@
 Updating
-medidaEficienciaEnergetica: newValue
-	medidaEficienciaEnergetica := newValue
+medidaEficienciaEnergetica: aMedidaEficienciaEnergetica
+
+	medidaEficienciaEnergetica := aMedidaEficienciaEnergetica.
+
+	aMedidaEficienciaEnergetica escenarioSinMedidas: self.

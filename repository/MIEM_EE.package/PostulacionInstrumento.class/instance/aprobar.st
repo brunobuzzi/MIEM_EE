@@ -1,0 +1,4 @@
+other
+aprobar
+
+	estado := #aprobada

@@ -1,4 +1,4 @@
-other
+mapping methods
 getMappingMethods
 
 	^Dictionary new

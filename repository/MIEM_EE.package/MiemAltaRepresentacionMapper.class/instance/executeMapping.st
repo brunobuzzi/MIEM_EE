@@ -1,4 +1,4 @@
-other
+mapping
 executeMapping
 	| businessObjects representacion empresa instalaciones documentos aprobarForm |
 
@@ -18,4 +18,5 @@ executeMapping
 
 	representacion habilitada: true;
 		aprobada: aprobarForm aprobada.
+
 	^representacion
