@@ -26,6 +26,6 @@ setUp
 	environment registerUser: (self getUserNamed: 'pedro@MIEM').
 
 	(self defaultFrontOfficeRoleClass getRoleNamed: 'Empresa' in: 'dne') grantUser: (self getUserNamed: 'juan@MIEM') ifPresent: [].
-	(Rol getExistingOrNewRolerNamed: 'Empresa' withType: 'Externo' in: Rol defaultBpmApplication) grantUsuario: (self getUserNamed: 'juan@MIEM').
+	(Rol getExistingOrNewRolerNamed: 'Empresa' withType: 'Externo' in: Rol defaultBpmApplication) grantUsuario: (Usuario getUserNamed: 'juan@MIEM').
 	(self defaultFrontOfficeRoleClass getRoleNamed: 'Operador' in: 'dne') grantUser: (self getUserNamed: 'pedro@MIEM') ifPresent: [].
-	(Rol getExistingOrNewRolerNamed: 'Operador' withType: 'Interno' in: Rol defaultBpmApplication) grantUsuario: (self getUserNamed: 'pedro@MIEM').
+	(Rol getExistingOrNewRolerNamed: 'Operador' withType: 'Interno' in: Rol defaultBpmApplication) grantUsuario: (Usuario getUserNamed: 'pedro@MIEM').

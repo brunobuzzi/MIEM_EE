@@ -51,5 +51,5 @@ testPostulacionInstrumento
 
 	"Step 6 - Orbeon Form [resolver-postulacion]"
 	currentTask := procInstance currentActivities last.
-	self processExecutionSimulator takeAndFinalizeTask: currentTask withUserNamed: 'pedro@MIEM' withForm: self formInstance_resolverPostulacion new on: procInstance.
+	self processExecutionSimulator takeAndFinalizeTask: currentTask withUserNamed: 'pedro@MIEM' withForm: self formInstance_resolverPostulacion on: procInstance.
 	self assert: (currentTask getDefinitionName = 'resolver-postulacion').
