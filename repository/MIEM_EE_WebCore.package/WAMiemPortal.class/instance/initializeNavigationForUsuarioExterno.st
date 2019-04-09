@@ -15,7 +15,7 @@ initializeNavigationForUsuarioExterno
 		set24Icon: #folderscheduledtasks24Png;
 		addItem: (SewafCommandItem label: 'Postulaciones Actules' command: #showPostulacionesActuales);
 		addItem: (SewafCommandItem label: 'Postulaciones Pendientes' command: #showPostulacionesPendientes);
-		addItem: (SewafCommandItem label: 'Postulaciones Cerradas' command: #showPostulacionesFinalizadas);
+		addItem: (SewafCommandItem label: 'Tareas Finalizadas' command: #showPostulacionesFinalizadas);
 		yourself.
 	navigation
 		addItem: subMenu1;

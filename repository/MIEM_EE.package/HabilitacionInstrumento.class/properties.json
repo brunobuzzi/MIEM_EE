@@ -11,7 +11,8 @@
 		"postulaciones",
 		"estaVigente",
 		"inicioPlazo",
-		"descripcion" ],
+		"descripcion",
+		"usuario" ],
 	"name" : "HabilitacionInstrumento",
 	"pools" : [
 		 ],

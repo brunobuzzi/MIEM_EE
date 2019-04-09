@@ -22,6 +22,7 @@
 		"getApplicationsIn:" : "brunobb 02/21/2019 06:22",
 		"getBackofficeApplicationsIn:" : "brunobb 03/22/2019 09:31",
 		"getBpmEnvironments" : "brunobb 02/15/2019 09:17",
+		"getCreationProcessesIn:" : "brunobb 04/09/2019 03:39",
 		"getCurrentAssignmentsIn:" : "brunobb 02/21/2019 06:22",
 		"getMyTaskAssignmentsWithId:in:" : "brunobb 02/25/2019 07:59",
 		"getProcessInstanceCategoriesFor:" : "brunobb 02/21/2019 06:23",
