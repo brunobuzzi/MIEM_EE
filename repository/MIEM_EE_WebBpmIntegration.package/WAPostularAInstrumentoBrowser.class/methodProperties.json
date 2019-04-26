@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"crearPostulacion" : "brunobb 04/11/2019 08:06",
 		"renderProcessTypeComboOn:" : "brunobb 03/21/2019 08:19",
+		"renderSearchRegularPanelOn:" : "brunobb 04/11/2019 08:07",
 		"searchMatchingAssignmentsFor:in:" : "brunobb 03/21/2019 03:45",
 		"searchMatchingProcesses" : "brunobb 03/21/2019 03:45" } }

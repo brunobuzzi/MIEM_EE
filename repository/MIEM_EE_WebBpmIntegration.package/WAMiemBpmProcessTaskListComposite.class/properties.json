@@ -10,5 +10,5 @@
 	"name" : "WAMiemBpmProcessTaskListComposite",
 	"pools" : [
 		 ],
-	"super" : "WABpmProcessTaskListComposite",
+	"super" : "WABpmTaskListJsComposite",
 	"type" : "normal" }

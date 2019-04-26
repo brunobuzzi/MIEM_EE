@@ -3,12 +3,10 @@ asNewEscenarioSinMedidas
 	| medidas |
 
 	medidas := OrderedCollection new.
-	self transverseFieldValues do: [:dictionary | | medida escenarioSinMedidas nombreMedida |
+	self transverseFieldValues do: [:dictionary | | medida escenarioSinMedidas |
 		medida := MedidaEficienciaEnergetica new.
 		escenarioSinMedidas := EscenarioSinMedidas newOn: medida.
-		nombreMedida := NombreMedidaEficienciaEnergetica getMedidaWithCode: (dictionary at: 'escSinMedidaNombre') value.
 		medida 
-			nombreMedidaEficienciaEnergetica: nombreMedida;
 			moneda: (Moneda getMonedaNamed: (dictionary at: 'escSinMedidaMoneda') value);
 			esOperativa: (dictionary at: 'escSinMedidaEsOperativa') value;
 			vidaUtil: (dictionary at: 'escSinMedidaVidaUtil') value;
