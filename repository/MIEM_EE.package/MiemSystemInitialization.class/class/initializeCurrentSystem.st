@@ -11,6 +11,8 @@ initializeCurrentSystem
 	defaultEnvironment applications asArray do: [:each | defaultEnvironment unregisterApplication: each].
 	defaultEnvironment users asArray do: [:each | defaultEnvironment unregisterUser: each].
 
+	(self defaultProcessDefinitionClass getAllProcessDefinitionInBpmEnvironmentNamed: 'MIEM') do: [:procDefinition | procDefinition removeFromCache].
+
 	defaultEnvironment removeFromCache.
 
 	Usuario initializeCache.

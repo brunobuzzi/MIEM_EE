@@ -10,4 +10,6 @@ testInitializeCurrentSystem
 
 	defaultEnvironment := self defaultEnvironmentClass getEnvironmentNamed: 'MIEM' ifNone: [self assert: true].
 
-	self assert: Usuario cache isEmpty
+	self assert: Usuario cache isEmpty.
+
+	self assert: (self defaultProcessDefinitionClass getAllProcessDefinitionInBpmEnvironmentNamed: 'MIEM') isEmpty
