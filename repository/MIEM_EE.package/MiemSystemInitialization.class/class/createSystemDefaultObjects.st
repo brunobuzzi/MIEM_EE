@@ -7,7 +7,7 @@ createSystemDefaultObjects
 
 	defaultEnvironment := self defaultEnvironmentClass newNamed: 'MIEM'.
 
-	adminUser := Usuario getUserNamed: 'admin'.
+	adminUser := Usuario getExistingOrNewUserNamed: 'admin' password: ' ' forEnvironment: defaultEnvironment.
 	defaultEnvironment registerUser: adminUser asBpmUser ifPresent: [].
 	defaultEnvironment addToCache.
 
