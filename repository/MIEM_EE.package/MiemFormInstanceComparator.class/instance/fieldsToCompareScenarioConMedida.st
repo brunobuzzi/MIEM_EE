@@ -1,14 +1,12 @@
 other
 fieldsToCompareScenarioConMedida
 
-	^#('escConMedidaNombre' 
-		'escConMedidaUsoPrincipal'
-		'escConMedidaFechaInicioOperacion' 
-		'escConMedidaEsOperativa'  
-		'escConMedidaVidaUtil' 
-		'escConMedidaInversionTotal' 
-		'escConMedidaMoneda' 
-		'escConMedidaFuenteEnergia' 
+	^#('escConMedidaFuenteEnergia' 
+		'escConMedidaPrecioEnergetico'
+		'escConMedidaUyuUnidadFisica'  
+		'escConMedidaConsumoEnergia'
+		'escConMedidaUnidadFisica'
+		'escConMedidaValorTepAnio'
+		'escConMedidaValorUyu'
 		'escConMedidaEmisionCO2'
-		'escConMedidaPrecioFuenteEnergia'  
-		'escConMedidaConsumoEnergia')
+		)

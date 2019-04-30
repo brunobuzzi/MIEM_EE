@@ -1,14 +1,12 @@
 other
 fieldsToCompareScenarioSinMedida
 
-	^#('escSinMedidaNombre' 
-		'escSinMedidaUsoPrincipal'
-		'escSinMedidaFechaInicioOperacion' 
-		'escSinMedidaEsOperativa'  
-		'escSinMedidaVidaUtil' 
-		'escSinMedidaInversionTotal' 
-		'escSinMedidaMoneda' 
-		'escSinMedidaFuenteEnergia' 
+	^#('escSinMedidaFuenteEnergia' 
+		'escSinMedidaPrecioEnergetico'
+		'escSinMedidaUyuUnidadFisica'  
+		'escSinMedidaConsumoEnergia'
+		'escSinMedidaUnidadFisica'
+		'escSinMedidaValorTepAnio'
+		'escSinMedidaValorUyu'
 		'escSinMedidaEmisionCO2'
-		'escSinMedidaPrecioFuenteEnergia'  
-		'escSinMedidaConsumoEnergia')
+		)

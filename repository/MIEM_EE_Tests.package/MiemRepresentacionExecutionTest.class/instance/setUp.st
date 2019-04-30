@@ -1,6 +1,6 @@
 other
 setUp
-	| environment application |
+	| environment application usuario1 usuario2 |
 
 	processExecutionSimulator := PEFBpmProcessExecutor new.
 
@@ -17,8 +17,8 @@ setUp
 	procDefinition := procDefinition ifEmpty: [self createProcessDefinition] ifNotEmpty: [:collection | collection last].
 	environment := procDefinition bpmEnvironment.
 
-	Usuario getExistingOrNewUserNamed: 'juan@MIEM' password: ' ' forEnvironment: environment.
-	Usuario getExistingOrNewUserNamed: 'pedro@MIEM' password: ' ' forEnvironment: environment.
+	usuario1 := Usuario getExistingOrNewUserNamed: 'juan@MIEM' password: ' ' forEnvironment: environment.
+	usuario2 := Usuario getExistingOrNewUserNamed: 'pedro@MIEM' password: ' ' forEnvironment: environment.
 
 	self processExecutionSimulator registerUser: (self defaultBpmUserClass getExistingOrNewUserNamed: 'juan@MIEM').
 	self processExecutionSimulator registerUser: (self defaultBpmUserClass getExistingOrNewUserNamed: 'pedro@MIEM').
@@ -26,6 +26,6 @@ setUp
 	environment registerUser: (self getUserNamed: 'pedro@MIEM').
 
 	(self defaultFrontOfficeRoleClass getRoleNamed: 'Empresa' in: 'dne') grantUser: (self getUserNamed: 'juan@MIEM') ifPresent: [].
-	(Rol getExistingOrNewRolerNamed: 'Empresa' withType: 'Externo' in: Rol defaultBpmApplication) grantUsuario: (self getUserNamed: 'juan@MIEM').
+	(Rol getExistingOrNewRolerNamed: 'Empresa' withType: 'Externo' in: Rol defaultBpmApplication) grantUsuario: usuario1.
 	(self defaultFrontOfficeRoleClass getRoleNamed: 'Operador' in: 'dne') grantUser: (self getUserNamed: 'pedro@MIEM') ifPresent: [].
-	(Rol getExistingOrNewRolerNamed: 'Operador' withType: 'Interno' in: Rol defaultBpmApplication) grantUsuario: (self getUserNamed: 'pedro@MIEM').
+	(Rol getExistingOrNewRolerNamed: 'Operador' withType: 'Interno' in: Rol defaultBpmApplication) grantUsuario: usuario2.

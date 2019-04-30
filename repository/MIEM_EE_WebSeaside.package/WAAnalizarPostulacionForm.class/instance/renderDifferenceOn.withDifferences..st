@@ -2,7 +2,7 @@ other
 renderDifferenceOn: html withDifferences: aMiemMedidaComparison 
 
 	html div class: 'medida-comparison'; with: [
-		html legend with: [html strong with: aMiemMedidaComparison nombreMedida].
+		html div class: 'medida-comparison-title'; with: [self renderCommonDataOn: html for: aMiemMedidaComparison].
 		html div class: 'title'; with: [html strong with: [html output with: '']].
 		html div class: 'title'; with: [html strong with: [html output with: 'Sin Medida']].
 		html div class: 'title'; with: [html strong with: [html output with: 'Con Medida']].

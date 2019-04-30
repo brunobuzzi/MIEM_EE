@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 
-	differences := OrderedCollection new.
+	differences := Set new.

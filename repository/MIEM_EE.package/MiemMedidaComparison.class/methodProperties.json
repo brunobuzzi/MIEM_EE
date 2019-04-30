@@ -1,10 +1,13 @@
 {
 	"class" : {
-		"newFor:" : "brunobb 03/20/2019 08:09" },
+		"newFor:" : "brunobb 04/30/2019 06:13" },
 	"instance" : {
-		"addDifference:" : "brunobb 03/20/2019 08:15",
-		"differences" : "brunobb 03/20/2019 08:08",
-		"differences:" : "brunobb 03/20/2019 08:08",
-		"initialize" : "brunobb 03/20/2019 08:08",
-		"nombreMedida" : "brunobb 03/20/2019 08:08",
-		"nombreMedida:" : "brunobb 03/20/2019 08:08" } }
+		"addDifference:" : "brunobb 04/30/2019 06:13",
+		"atCommonData:put:" : "brunobb 04/30/2019 06:14",
+		"commonData" : "brunobb 04/30/2019 06:19",
+		"commonData:" : "brunobb 04/30/2019 06:19",
+		"differences" : "brunobb 04/30/2019 06:13",
+		"differences:" : "brunobb 04/30/2019 06:13",
+		"initialize" : "brunobb 04/30/2019 06:13",
+		"nombreMedida" : "brunobb 04/30/2019 06:13",
+		"nombreMedida:" : "brunobb 04/30/2019 06:13" } }
