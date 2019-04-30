@@ -13,6 +13,6 @@ executeMapping
 		postulacion addMedida: medida.
 		medida postulacionInstrumento: postulacion].
 
-	formResolverPostulacion resolucionFavorable ifTrue: [postulacion postular].
+	formResolverPostulacion aprobada ifTrue: [postulacion postular].
 
 	^postulacion

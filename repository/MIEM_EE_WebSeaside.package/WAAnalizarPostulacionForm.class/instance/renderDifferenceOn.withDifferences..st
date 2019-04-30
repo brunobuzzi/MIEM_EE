@@ -7,7 +7,7 @@ renderDifferenceOn: html withDifferences: aMiemMedidaComparison
 		html div class: 'title'; with: [html strong with: [html output with: 'Sin Medida']].
 		html div class: 'title'; with: [html strong with: [html output with: 'Con Medida']].
 		html div class: 'title'; with: [html strong with: [html output with: 'Differencia']].
-		aMiemMedidaComparison differences do: [:aMiemMedidaComparisonValue |
+		aMiemMedidaComparison orderedDifferences do: [:aMiemMedidaComparisonValue |
 			html div with: [
 				html div class: 'item'; with: [html output with: (aMiemMedidaComparisonValue nombreCampo allButFirst: 12)].
 				html div class: 'item sin-medida'; with: [html output with: aMiemMedidaComparisonValue valorSinMedida].
