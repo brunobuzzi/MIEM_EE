@@ -1,8 +1,13 @@
 {
 	"class" : {
 		"cache" : "brunobb 04/30/2019 10:14",
+		"getUnidadNamed:ifAbsent:" : "brunobb 05/02/2019 03:32",
 		"initializeCache" : "brunobb 04/30/2019 10:14",
-		"populateCache" : "brunobb 04/30/2019 10:15" },
+		"kilovatioHora" : "brunobb 05/02/2019 03:35",
+		"litro" : "brunobb 05/02/2019 03:35",
+		"metrosCubicos" : "brunobb 05/02/2019 03:33",
+		"populateCache" : "brunobb 04/30/2019 10:15",
+		"tonelada" : "brunobb 05/02/2019 03:33" },
 	"instance" : {
 		"descripcion" : "brunobb 04/30/2019 10:14",
 		"descripcion:" : "brunobb 04/30/2019 10:14",

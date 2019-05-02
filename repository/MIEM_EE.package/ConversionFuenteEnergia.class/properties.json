@@ -1,0 +1,18 @@
+{
+	"category" : "MIEM_EE",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Cache" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fuenteEnergia",
+		"unidadEnergetica",
+		"fechaActulizacion",
+		"factorConversionTEP",
+		"factorEmisionCO2" ],
+	"name" : "ConversionFuenteEnergia",
+	"pools" : [
+		 ],
+	"super" : "ObjetoMIEM",
+	"type" : "normal" }

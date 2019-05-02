@@ -1,4 +1,4 @@
-cache
+other
 initializeCache
 
 	Cache := Set new
