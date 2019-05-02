@@ -42,6 +42,9 @@
 		"validNamesAndMethods" : "brunobb 05/02/2019 05:24" },
 	"instance" : {
 		"canDelete" : "brunobb 05/02/2019 03:27",
+		"defaultConversionClass" : "brunobb 05/02/2019 06:03",
+		"getConversionFor:" : "brunobb 05/02/2019 06:25",
+		"getConversiones" : "brunobb 05/02/2019 06:04",
 		"initialize" : "brunobb 05/02/2019 04:33",
 		"nombre" : "brunobb 05/02/2019 03:27",
 		"nombre:" : "brunobb 05/02/2019 03:27",

@@ -1,0 +1,3 @@
+Accessing
+fechaActualizacion
+	^fechaActualizacion

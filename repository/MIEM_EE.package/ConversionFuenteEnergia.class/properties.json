@@ -8,7 +8,7 @@
 	"instvars" : [
 		"fuenteEnergia",
 		"unidadEnergetica",
-		"fechaActulizacion",
+		"fechaActualizacion",
 		"factorConversionTEP",
 		"factorEmisionCO2" ],
 	"name" : "ConversionFuenteEnergia",
