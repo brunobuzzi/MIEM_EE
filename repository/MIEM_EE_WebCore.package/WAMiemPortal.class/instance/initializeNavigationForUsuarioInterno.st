@@ -29,6 +29,7 @@ initializeNavigationForUsuarioInterno
 		addItem: (SewafCommandItem label: 'Instrumentos' command: #showInstrumentos);
 		addItem: (SewafCommandItem label: 'Monedas' command: #showMonedas);
 		addItem: (SewafCommandItem label: 'Tarifa de Referencia' command: #showTarifasDeReferencia);
+		addItem: (SewafCommandItem label: 'Conversiones' command: #showConversiones);
 		yourself.
 	navigation
 		addItem: subMenu2;

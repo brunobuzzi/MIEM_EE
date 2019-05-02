@@ -1,0 +1,4 @@
+other
+nombreFuenteEnergia
+
+	^fuenteEnergia nombre

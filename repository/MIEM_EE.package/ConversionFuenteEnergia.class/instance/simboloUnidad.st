@@ -1,0 +1,4 @@
+other
+simboloUnidad
+
+	^unidadEnergetica nombre

@@ -1,0 +1,4 @@
+other
+nombreUnidad
+
+	^unidadEnergetica descripcion
