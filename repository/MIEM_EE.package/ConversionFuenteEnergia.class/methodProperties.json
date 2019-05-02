@@ -1,8 +1,9 @@
 {
 	"class" : {
 		"cache" : "brunobb 05/02/2019 03:48",
+		"cacheAsSortedCollection" : "brunobb 05/02/2019 05:47",
 		"initializeCache" : "brunobb 05/02/2019 03:48",
-		"populateCache" : "brunobb 05/02/2019 05:25" },
+		"populateCache" : "brunobb 05/02/2019 05:59" },
 	"instance" : {
 		"factorConversionTEP" : "brunobb 05/02/2019 03:47",
 		"factorConversionTEP:" : "brunobb 05/02/2019 03:47",
@@ -12,5 +13,6 @@
 		"fechaActulizacion:" : "brunobb 05/02/2019 03:47",
 		"fuenteEnergia" : "brunobb 05/02/2019 03:47",
 		"fuenteEnergia:" : "brunobb 05/02/2019 03:47",
+		"printOn:" : "brunobb 05/02/2019 05:45",
 		"unidadEnergetica" : "brunobb 05/02/2019 03:47",
 		"unidadEnergetica:" : "brunobb 05/02/2019 03:47" } }
