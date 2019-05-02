@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"valor",
-		"escenarioMedidas" ],
+		"valor" ],
 	"name" : "EmisionCO2",
 	"pools" : [
 		 ],

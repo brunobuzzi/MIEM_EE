@@ -6,9 +6,7 @@
 		"Cache" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"factorEmisionCO2",
-		"nombre",
-		"factorConversionTEP" ],
+		"nombre" ],
 	"name" : "FuenteEnergia",
 	"pools" : [
 		 ],

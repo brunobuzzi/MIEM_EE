@@ -1,16 +1,12 @@
 {
 	"class" : {
-		"cache" : "brunobb 02/13/2019 10:46",
-		"includesFuenteEnergiaNamed:" : "brunobb 02/18/2019 09:57",
-		"initializeCache" : "brunobb 02/13/2019 10:47",
-		"populateCache" : "brunobb 02/13/2019 11:01",
-		"validNames" : "brunobb 02/13/2019 11:00" },
+		"cache" : "brunobb 05/02/2019 03:27",
+		"includesFuenteEnergiaNamed:" : "brunobb 05/02/2019 03:27",
+		"initializeCache" : "brunobb 05/02/2019 03:27",
+		"populateCache" : "brunobb 05/02/2019 03:27",
+		"validNames" : "brunobb 05/02/2019 03:27" },
 	"instance" : {
-		"canDelete" : "brunobb 02/18/2019 09:37",
-		"factorConversionTEP" : "brunobb 02/13/2019 09:30",
-		"factorConversionTEP:" : "brunobb 02/13/2019 09:30",
-		"factorEmisionCO2" : "brunobb 02/13/2019 09:30",
-		"factorEmisionCO2:" : "brunobb 02/13/2019 09:30",
-		"nombre" : "brunobb 02/13/2019 09:30",
-		"nombre:" : "brunobb 02/13/2019 09:30",
-		"printOn:" : "brunobb 02/13/2019 10:48" } }
+		"canDelete" : "brunobb 05/02/2019 03:27",
+		"nombre" : "brunobb 05/02/2019 03:27",
+		"nombre:" : "brunobb 05/02/2019 03:27",
+		"printOn:" : "brunobb 05/02/2019 03:27" } }

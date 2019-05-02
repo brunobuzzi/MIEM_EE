@@ -2,7 +2,7 @@ other
 createSystemDefaultObjects
 	| defaultEnvironment adminUser |
 
-	(OrderedCollection new add: Autoconsumo; add: CIIU; add: FuenteEnergia; add:Moneda; add: Sector; add: TarifaReferencia; add: Rol; add: Usuario; add: Instrumento; add: UsoMedida; yourself) 
+	(OrderedCollection new add: Autoconsumo; add: CIIU; add: FuenteEnergia; add:Moneda; add: Sector; add: TarifaReferencia; add: Rol; add: Usuario; add: Instrumento; add: UsoMedida; add: UnidadEnergetica; yourself) 
 		do: [:eachClass | eachClass populateCache].
 
 	defaultEnvironment := self defaultEnvironmentClass newNamed: 'MIEM'.

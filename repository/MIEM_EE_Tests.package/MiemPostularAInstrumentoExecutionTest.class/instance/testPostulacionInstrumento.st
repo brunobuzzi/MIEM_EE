@@ -29,7 +29,7 @@ testPostulacionInstrumento
 	currentTask := procInstance currentActivities last.
 	self processExecutionSimulator takeAndFinalizeTask: currentTask withUserNamed: 'juan@MIEM' withForm: self form_valores_escenarios on: procInstance.
 	self assert: (currentTask getDefinitionName = 'valores-escenarios').
-self halt.
+
 	"Step 3 -  Seaside Form [analizar-postulacion]"
 	currentTask := procInstance currentActivities last.
 	self processExecutionSimulator takeAndFinalizeTask: currentTask withUserNamed: 'pedro@MIEM' withForm: PostulacionAnalisis new on: procInstance.
@@ -37,5 +37,5 @@ self halt.
 
 	"Step 4 - Orbeon Form [resolver-postulacion]"
 	currentTask := procInstance currentActivities last.
-	self processExecutionSimulator takeAndFinalizeTask: currentTask withUserNamed: 'pedro@MIEM' withForm: self form_resolver_postulacion on: procInstance.
+	self processExecutionSimulator takeAndFinalizeTask: currentTask withUserNamed: 'pedro@MIEM' withForm: self formInstance_resolverPostulacion on: procInstance.
 	self assert: (currentTask getDefinitionName = 'resolver-postulacion').

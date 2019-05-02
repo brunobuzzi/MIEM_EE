@@ -1,18 +1,17 @@
 mapping
 executeMapping
-	| businessObjects postulacion medidasSinMedida medidasConMedida formResolverPostulacion|
+	| businessObjects postulacion medidas formResolverPostulacion |
 
 	businessObjects := self createBusinessObjects.
 	postulacion := businessObjects at: 1.
-	medidasSinMedida := businessObjects at: 2.
-	medidasConMedida := businessObjects at: 3.
-	formResolverPostulacion := businessObjects at: 4.
+	medidas := businessObjects at: 2.
+	formResolverPostulacion := businessObjects at: 3.
 
-	medidasSinMedida keysAndValuesDo: [:index :medida |
-		medida escenarioConMedidas: (medidasConMedida at: index) escenarioConMedidas.
+	medidas do: [:medida | 
 		postulacion addMedida: medida.
-		medida postulacionInstrumento: postulacion].
-
-	formResolverPostulacion aprobada ifTrue: [postulacion postular].
+		medida postulacionInstrumento: postulacion.
+	].
+	
+	postulacion postular.
 
 	^postulacion

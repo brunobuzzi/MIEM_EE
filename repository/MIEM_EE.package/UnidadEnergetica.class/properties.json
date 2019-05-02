@@ -3,10 +3,11 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Cache" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"nombre" ],
+		"nombre",
+		"descripcion" ],
 	"name" : "UnidadEnergetica",
 	"pools" : [
 		 ],

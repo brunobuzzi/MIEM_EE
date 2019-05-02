@@ -1,11 +1,12 @@
 *MIEM_EE
-asNewEscenarioSinMedidas
+asNewValoresEscenarios
 	| medidas |
 
 	medidas := OrderedCollection new.
-	self transverseFieldValues do: [:dictionary | | medida escenarioSinMedidas |
+	self transverseFieldValues do: [:dictionary | | medida escenarioSinMedidas escenarioConMedidas |
 		medida := MedidaEficienciaEnergetica new.
 		escenarioSinMedidas := EscenarioSinMedidas newOn: medida.
+		escenarioConMedidas := EscenarioConMedidas newOn: medida.
 		medida 
 			moneda: (Moneda getMonedaNamed: (dictionary at: 'escSinMedidaMoneda') value);
 			esOperativa: (dictionary at: 'escSinMedidaEsOperativa') value;
@@ -14,10 +15,13 @@ asNewEscenarioSinMedidas
 			usoPrincipal: (UsoMedida getUsoWithCode: (dictionary at: 'escSinMedidaUsoPrincipal') value);
 			fechaInicioOperacion: (dictionary at: 'escSinMedidaFechaInicioOperacion') value.
 		escenarioSinMedidas
-			precioFuenteEnergia: (dictionary at: 'escSinMedidaPrecioFuenteEnergia') value;
-			consumoEnergia: (dictionary at: 'escSinMedidaConsumoEnergia') value; 
-			emisionCO2: (dictionary at: 'escSinMedidaEmisionCO2') value; 
-			fuenteEnergia: (dictionary at: 'escSinMedidaFuenteEnergia') value.
+			precioFuenteEnergia: (dictionary at: 'escSinMedidaFuenteEnergia') value;
+			consumoEnergia: (dictionary at: 'escSinMedidaPrecioEnergetico') value; 
+			consumoEnergia: (dictionary at: 'escSinMedidaConsumoEnergia') value.
+		escenarioConMedidas
+			precioFuenteEnergia: (dictionary at: 'escConMedidaFuenteEnergia') value;
+			consumoEnergia: (dictionary at: 'escConMedidaPrecioEnergetico') value; 
+			consumoEnergia: (dictionary at: 'escConMedidaConsumoEnergia') value.
 		medidas add: medida.
 	].
 	^medidas
