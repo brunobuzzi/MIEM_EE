@@ -1,0 +1,4 @@
+Updating
+registrarEscenarioConMedidas: unEscenarioConMedidas
+
+	^escenariosConMedidas add: unEscenarioConMedidas

@@ -3,4 +3,4 @@ medidaEficienciaEnergetica: aMedidaEficienciaEnergetica
 
 	medidaEficienciaEnergetica := aMedidaEficienciaEnergetica.
 
-	aMedidaEficienciaEnergetica escenarioConMedidas: self.
+	aMedidaEficienciaEnergetica registrarEscenarioConMedidas: self.

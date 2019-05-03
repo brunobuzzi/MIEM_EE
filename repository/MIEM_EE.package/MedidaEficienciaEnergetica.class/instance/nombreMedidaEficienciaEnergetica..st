@@ -1,3 +1,0 @@
-Updating
-nombreMedidaEficienciaEnergetica: newValue
-	nombreMedidaEficienciaEnergetica := newValue

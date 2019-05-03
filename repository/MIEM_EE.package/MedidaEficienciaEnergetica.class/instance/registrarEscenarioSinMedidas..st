@@ -1,0 +1,4 @@
+Updating
+registrarEscenarioSinMedidas: unEscenarioSinMedidas
+
+	^escenariosSinMedidas add: unEscenarioSinMedidas
