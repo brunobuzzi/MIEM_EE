@@ -3,25 +3,28 @@ asNewValoresEscenarios
 	| medidas |
 
 	medidas := OrderedCollection new.
-	self transverseFieldValues do: [:dictionary | | medida escenarioSinMedidas escenarioConMedidas |
+	(self getSectionsNamed: 'section-1') do: [:section | | medida escenarioSinMedidas escenarioConMedidas |
 		medida := MedidaEficienciaEnergetica new.
-		escenarioSinMedidas := EscenarioSinMedidas newOn: medida.
-		escenarioConMedidas := EscenarioConMedidas newOn: medida.
 		medida 
-			moneda: (Moneda getMonedaNamed: (dictionary at: 'escSinMedidaMoneda') value);
-			esOperativa: (dictionary at: 'escSinMedidaEsOperativa') value;
-			vidaUtil: (dictionary at: 'escSinMedidaVidaUtil') value;
-			inversionTotal: (dictionary at: 'escSinMedidaInversionTotal') value;		
-			usoPrincipal: (UsoMedida getUsoWithCode: (dictionary at: 'escSinMedidaUsoPrincipal') value);
-			fechaInicioOperacion: (dictionary at: 'escSinMedidaFechaInicioOperacion') value.
-		escenarioSinMedidas
-			precioFuenteEnergia: (dictionary at: 'escSinMedidaFuenteEnergia') value;
-			consumoEnergia: (dictionary at: 'escSinMedidaPrecioEnergetico') value; 
-			consumoEnergia: (dictionary at: 'escSinMedidaConsumoEnergia') value.
-		escenarioConMedidas
-			precioFuenteEnergia: (dictionary at: 'escConMedidaFuenteEnergia') value;
-			consumoEnergia: (dictionary at: 'escConMedidaPrecioEnergetico') value; 
-			consumoEnergia: (dictionary at: 'escConMedidaConsumoEnergia') value.
+			moneda: (Moneda getMonedaNamed: (section valueAt: 'medidaMoneda'));
+			esOperativa: (section valueAt: 'medidaEsOperativa');
+			vidaUtil: (section valueAt: 'medidaVidaUtil');
+			inversionTotal: (section valueAt: 'medidaInversionTotal');
+			usoPrincipal: (UsoMedida getUsoWithCode: (section valueAt: 'medidaUsoPrincipal'));
+			gradoImplementacion: (section valueAt: 'medidaGradoImplementacion');
+			fechaInicioOperacion: (section valueAt: 'medidaFechaInicioOperacion').
+		section subSections do: [:subSection |
+			escenarioSinMedidas := EscenarioSinMedidas newOn: medida.
+			escenarioConMedidas := EscenarioConMedidas newOn: medida.
+			escenarioSinMedidas
+				fuenteEnergia: (FuenteEnergia getFuenteEnergiaWithCode: (subSection valueAt: 'escSinMedidaFuenteEnergia') ifAbsent: [nil]);
+				precioFuenteEnergia: (subSection valueAt: 'escSinMedidaPrecioEnergetico'); 
+				consumoEnergia: (subSection valueAt: 'escSinMedidaConsumoEnergia').
+			escenarioConMedidas
+				fuenteEnergia: (subSection valueAt: 'escConMedidaFuenteEnergia');
+				precioFuenteEnergia: (subSection valueAt: 'escConMedidaPrecioEnergetico'); 
+				consumoEnergia: (FuenteEnergia getFuenteEnergiaWithCode: (subSection valueAt: 'escConMedidaConsumoEnergia') ifAbsent: [nil]).
+		].
 		medidas add: medida.
 	].
 	^medidas
