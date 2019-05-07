@@ -5,13 +5,15 @@ executeMapping
 	businessObjects := self createBusinessObjects.
 	postulacion := businessObjects at: 1.
 	medidas := businessObjects at: 2.
-	formResolverPostulacion := businessObjects at: 3.
+	salvarPostulacion ifTrue: [formResolverPostulacion := businessObjects at: 3].
+
+	postulacion medidasEficienciaEnergetica: Set new.
 
 	medidas do: [:medida | 
 		postulacion addMedida: medida.
 		medida postulacionInstrumento: postulacion.
 	].
-	
-	postulacion postular.
+
+	salvarPostulacion ifTrue: [postulacion postular].
 
 	^postulacion

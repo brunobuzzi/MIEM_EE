@@ -21,10 +21,11 @@ asNewValoresEscenarios
 				precioFuenteEnergia: (subSection valueAt: 'escSinMedidaPrecioEnergetico'); 
 				consumoEnergia: (subSection valueAt: 'escSinMedidaConsumoEnergia').
 			escenarioConMedidas
-				fuenteEnergia: (subSection valueAt: 'escConMedidaFuenteEnergia');
+				fuenteEnergia: (FuenteEnergia getFuenteEnergiaWithCode: (subSection valueAt: 'escConMedidaFuenteEnergia') ifAbsent: [nil]);
 				precioFuenteEnergia: (subSection valueAt: 'escConMedidaPrecioEnergetico'); 
-				consumoEnergia: (FuenteEnergia getFuenteEnergiaWithCode: (subSection valueAt: 'escConMedidaConsumoEnergia') ifAbsent: [nil]).
+				consumoEnergia: (subSection valueAt: 'escConMedidaConsumoEnergia').
 		].
 		medidas add: medida.
 	].
+
 	^medidas

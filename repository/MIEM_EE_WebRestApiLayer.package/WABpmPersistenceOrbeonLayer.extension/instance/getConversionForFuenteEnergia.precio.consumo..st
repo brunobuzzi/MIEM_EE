@@ -8,7 +8,7 @@ getConversionForFuenteEnergia: codigoFuenteEnergia precio: precio consumo: consu
 
 	fuente := FuenteEnergia getFuenteEnergiaWithCode: codigoFuenteEnergia ifAbsent: [^'<error>Fuente de energia no existe</error>'].
 
-	conversion  := fuente getConversionFor: Date today.
+	conversion := fuente getConversionFor: Date today.
 
 	precioConverted := [Number fromString: precio] on: Error do: [:ex | ^'<error>Precio NO valido</error>'].
 	consumoConverted := [Number fromString: consumo] on: Error do: [:ex | ^'<error>Consumo NO valido</error>'].

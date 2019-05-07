@@ -2,9 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"compararCon:" : "brunobb 05/07/2019 04:09",
 		"consumoEnergia" : "brunobb 04/30/2019 10:22",
 		"consumoEnergia:" : "brunobb 04/30/2019 10:22",
+		"emisionCO2TEP" : "brunobb 05/06/2019 11:49",
 		"fuenteEnergia" : "brunobb 04/30/2019 10:22",
-		"fuenteEnergia:" : "brunobb 04/30/2019 10:22",
+		"fuenteEnergia:" : "brunobb 05/06/2019 13:22",
 		"precioFuenteEnergia" : "brunobb 04/30/2019 10:22",
-		"precioFuenteEnergia:" : "brunobb 04/30/2019 10:22" } }
+		"precioFuenteEnergia:" : "brunobb 04/30/2019 10:22",
+		"valorTEP" : "brunobb 05/06/2019 11:47" } }

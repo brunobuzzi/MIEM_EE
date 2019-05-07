@@ -2,6 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createBusinessObjects" : "brunobb 04/30/2019 10:36",
-		"executeMapping" : "brunobb 04/30/2019 11:01",
-		"getMappingMethods" : "brunobb 04/30/2019 09:48" } }
+		"createBusinessObjects" : "brunobb 05/06/2019 13:00",
+		"executeMapping" : "brunobb 05/07/2019 03:35",
+		"getMappingMethods" : "brunobb 05/06/2019 12:37",
+		"initialize" : "brunobb 05/06/2019 12:37",
+		"salvarPostulacion" : "brunobb 05/06/2019 12:37",
+		"salvarPostulacion:" : "brunobb 05/06/2019 12:37" } }

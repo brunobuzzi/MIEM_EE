@@ -8,8 +8,10 @@ createBusinessObjects
 	mappingMethod := self getMappingMethodFor: form.
 	valoresEscenarios := form perform: mappingMethod.
 
-	form := (bpmProcessInstance getTaskNamed: 'resolver-postulacion' ifNone: []) externalObject.
-	mappingMethod := self getMappingMethodFor: form.
-	resolverPostulacion := form perform: mappingMethod.
+	salvarPostulacion ifTrue: [
+		form := (bpmProcessInstance getTaskNamed: 'resolver-postulacion' ifNone: []) externalObject.
+		mappingMethod := self getMappingMethodFor: form.
+		resolverPostulacion := form perform: mappingMethod.
+	].
 
 	^Array with: postulacion with: valoresEscenarios with: resolverPostulacion

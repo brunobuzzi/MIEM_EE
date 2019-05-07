@@ -18,15 +18,15 @@ compareEscenarios
 	self getDifferences keysAndValuesDo: [:fieldName :dictionary | | comp |
 		dictionary keysAndValuesDo: [:iteration :values | 
 			comp := medidaComparison at: iteration ifAbsentPut: [MiemMedidaComparison newFor: iteration].
-			comp atCommonData: 'escSinMedidaUsoPrincipal' put: ((process getValueOfProcessField: 'escSinMedidaUsoPrincipal') at: iteration).
-			comp atCommonData: 'escSinMedidaFechaInicioOperacion' put: ((process getValueOfProcessField: 'escSinMedidaFechaInicioOperacion') at: iteration).
-			comp atCommonData: 'escSinMedidaEsOperativa' put: ((process getValueOfProcessField: 'escSinMedidaEsOperativa') at: iteration).
-			comp atCommonData: 'escSinMedidaVidaUtil' put: ((process getValueOfProcessField: 'escSinMedidaVidaUtil') at: iteration).
-			comp atCommonData: 'escSinMedidaInversionTotal' put: ((process getValueOfProcessField: 'escSinMedidaInversionTotal') at: iteration).
-			comp atCommonData: 'escSinMedidaMoneda' put: ((process getValueOfProcessField: 'escSinMedidaMoneda') at: iteration).
+			comp atCommonData: 'medidaUsoPrincipal' put: ((process getValueOfProcessField: 'medidaUsoPrincipal') at: iteration).
+			comp atCommonData: 'medidaFechaInicioOperacion' put: ((process getValueOfProcessField: 'medidaFechaInicioOperacion') at: iteration).
+			comp atCommonData: 'medidaEsOperativa' put: ((process getValueOfProcessField: 'medidaEsOperativa') at: iteration).
+			comp atCommonData: 'medidaVidaUtil' put: ((process getValueOfProcessField: 'medidaVidaUtil') at: iteration).
+			comp atCommonData: 'medidaInversionTotal' put: ((process getValueOfProcessField: 'medidaInversionTotal') at: iteration).
+			comp atCommonData: 'medidaMoneda' put: ((process getValueOfProcessField: 'medidaMoneda') at: iteration).
 			comp addDifference: (MiemMedidaComparisonValue newFor: fieldName value1: (values at: 1) value2: (values at: 2)).
 			differences add: comp.
 		].
 	].
 
-	differences := differences asOrderedCollection
+	^differences := differences asOrderedCollection

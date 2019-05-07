@@ -1,0 +1,4 @@
+conversiones
+factorConversionTEP
+
+	^self getConversionActual factorConversionTEP

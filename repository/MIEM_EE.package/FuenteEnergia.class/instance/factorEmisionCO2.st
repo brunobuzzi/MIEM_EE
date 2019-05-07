@@ -1,0 +1,4 @@
+conversiones
+factorEmisionCO2
+
+	^self getConversionActual factorEmisionCO2

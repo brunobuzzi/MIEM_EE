@@ -1,5 +1,5 @@
 other
-renderContentOn: html
+renderContentOn2: html
 
 	html div with: [
 		html form class: 'boton-cerrar'; with: [
@@ -9,8 +9,11 @@ renderContentOn: html
 		]
 	].
 
-	model hasProcess ifFalse: [model process: taskInstance process].
+	model hasProcess 
+	ifFalse: [model process: taskInstance process.
+				model compareEscenarios].
 
 	html div with: [
-		self renderDifferenceOn: html.
+		model differences do: [:miemMedidaComparison | 
+			self renderDifferenceOn: html withDifferences: miemMedidaComparison ] 
 	].
