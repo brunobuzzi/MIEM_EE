@@ -11,5 +11,5 @@ asNewRepresentacion
 			esTotal: self repEsTotal;
 			aprobada: false;
 			habilitada: false;
-			setUsuario: self repNombreUsuario;
+			setUsuario: (self valueAt: 'username');
 			yourself
