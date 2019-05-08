@@ -20,6 +20,7 @@ initializeNavigationForUsuarioInterno
 		addItem: (SewafCommandItem label: 'Habilitaciones' command: #showHabilitacionesBrowser);
 		addItem: (SewafCommandItem label: 'Postulaciones Actuales' command: #showPostulacionesActuales);
 		addItem: (SewafCommandItem label: 'Postulaciones Pendientes' command: #showPostulacionesPendientes);
+		addItem: (SewafCommandItem label: 'Tareas Finalizadas' command: #showPostulacionesFinalizadas);
 		yourself.
 	subMenu4 := (SewafSubMenuItem label: 'Paramétricas' icon: #setting32Png)
 		set24Icon: #processadd24Png;

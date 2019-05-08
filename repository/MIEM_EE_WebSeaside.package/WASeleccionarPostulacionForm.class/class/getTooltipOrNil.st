@@ -1,4 +1,4 @@
 other
 getTooltipOrNil
 
-	^'Seleccionar Instrumento para Postularse'
+	^'Seleccionar Empresa, Instalación, Representación e Instrumento'
