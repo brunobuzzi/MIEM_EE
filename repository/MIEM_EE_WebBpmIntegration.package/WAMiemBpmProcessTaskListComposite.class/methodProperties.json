@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
+		"canEditTask:" : "brunobb 05/20/2019 12:19",
 		"createOrbeonLinkOn:for:" : "brunobb 03/19/2019 09:45",
-		"getUrlFor:with:" : "brunobb 03/14/2019 08:47",
+		"getUrlFor:with:" : "brunobb 05/20/2019 12:12",
 		"linkToOrbeonFormFor:" : "brunobb 03/14/2019 08:47",
 		"renderCloseAndSendFormOn:for:" : "brunobb 03/14/2019 08:54",
 		"renderOrbeonLinkIconOn:for:" : "brunobb 03/19/2019 09:46",

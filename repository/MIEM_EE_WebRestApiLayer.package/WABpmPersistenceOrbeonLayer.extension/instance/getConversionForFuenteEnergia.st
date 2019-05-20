@@ -1,12 +1,16 @@
 *MIEM_EE_WebRestApiLayer
-getConversionForFuenteEnergia: codigoFuenteEnergia precio: precio consumo: consumo
+getConversionForFuenteEnergia
 	""
-	<get>
-    <path: '/conversionfuenteenergia?fuente={1}&precio={2}&consumo={3}'> 
+	<post>
+    <path: '/conversionfuenteenergia'> 
 	<produces: 'text/xml'>
-	| fuente conversion valorTep precioConverted emsionesCO2 consumoConverted body |
+	| xmlParser codigoFuenteEnergia consumo precio fuente conversion valorTep precioConverted emsionesCO2 consumoConverted |
 
-	body := self requestContext request bodyDecodeUsing: 'utf-8'.
+	xmlParser := XMLDOMParser parse: (self requestContext request bodyDecodeUsing: 'utf-8').
+	codigoFuenteEnergia := (xmlParser findElementNamed: 'fuenteEnergia') ifNotNil: [:element | element value innerXML] ifNil: ['^<error>Fuente de energia no existe</error>'].
+	precio := (xmlParser findElementNamed: 'precioEnergetico') ifNotNil: [:element | element value innerXML] ifNil: ['^<error>No hay precio</error>'].
+	consumo := (xmlParser findElementNamed: 'consumoEnergia') ifNotNil: [:element | element value innerXML] ifNil: ['^<error>No hay consumo</error>'].
+
 	fuente := FuenteEnergia getFuenteEnergiaWithCode: codigoFuenteEnergia ifAbsent: [^'<error>Fuente de energia no existe</error>'].
 
 	conversion := fuente getConversionFor: Date today.
