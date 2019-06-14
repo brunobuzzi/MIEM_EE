@@ -1,9 +1,7 @@
 other
 renderSearchRoleFormOn: html
 
-	self renderShowHideWindowIconOn: html. "show/hide search area"
-
-	(self isEnabledToShowElementNamed: 'search-area') ifFalse: [^self].
+	self renderShowHideJsWindowIconOn: html. "show/hide search area"
 
 	html div 
 		with: [html form with: [
