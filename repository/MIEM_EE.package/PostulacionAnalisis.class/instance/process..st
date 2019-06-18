@@ -1,0 +1,2 @@
+bpm interaction
+process: aBpmProcess
