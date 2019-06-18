@@ -6,5 +6,5 @@
 <br>**EE Model**<br>
 The **UML Model** is combined with [BPM Flow](https://github.com/brunobuzzi/BpmFlow) to have **BPM Processes capabilities** automatically.<br><br>
 ![UML Model](https://github.com/brunobuzzi/MIEM_EE/blob/master/wiki/uml-miem.png)<br><br>
-**EE Model and BPM Interaction Architecture**<br>
-![Architecture](https://github.com/brunobuzzi/MIEM_EE/blob/master/wiki/uml-miem.png)<br><br>
+**EE Model and BPM Interaction Architecture**<br><br>
+![Architecture](https://github.com/brunobuzzi/MIEM_EE/blob/master/wiki/ee-bpm-architecture.png)<br><br>
