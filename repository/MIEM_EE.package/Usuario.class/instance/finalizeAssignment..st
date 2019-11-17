@@ -2,4 +2,4 @@ bpm interaction
 finalizeAssignment: aBpmTaskAssignment
 	"The receiver finalize the assignment <aBpmTaskAssignment>"
 
-	self asBpmUser finalizeAssignment: aBpmTaskAssignment
+	self asBpmUser finalizeAssignmentAndResume: aBpmTaskAssignment
